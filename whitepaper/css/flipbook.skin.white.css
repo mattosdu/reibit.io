@@ -71,8 +71,15 @@ transition: left .2s ease-out;
     -webkit-transition: all .5s ease-out;
     -moz-transition: all .5s ease-out;
     -o-transition: all .5s ease-out;
-    
 }
+.flipbook-tocItem3{
+	top: 50px;
+}
+.fa-download:before {
+    font-size: 17px;
+    margin: 4px;
+}
+
 .flipbook-tocItem2:hover{
 	margin-left: 250px;
 	opacity: 1;
