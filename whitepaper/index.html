@@ -49,26 +49,30 @@
     
 
     <script type="text/javascript">
-
+window.addEventListener('contextmenu', function (e) {
+  e.preventDefault();
+}, false);
         $(document).ready(function () {
+            
+            
             
 
             var whitepaper = $("#container").flipBook({
                 pages:[
-                    {src:"images/book2/page1.jpg", title:"Capa"},
-                    {src:"images/book2/page2.jpg", title:"Sumario"},
-                    {src:"images/book2/page3.jpg", title:"Introdução"},
-                    {src:"images/book2/page4.jpg", title:""},
-                    {src:"images/book2/page5.jpg", title:""},
-                    {src:"images/book2/page6.jpg", title:""},
-                    {src:"images/book2/page7.jpg", title:"Detalhes Técnicos"},
-                    {src:"images/book2/page8.jpg", title:""},
-                    {src:"images/book2/page9.jpg", title:""},
-                    {src:"images/book2/page10.jpg", title:"Plataformas"},
-                    {src:"images/book2/page11.jpg", title:""},
-                    {src:"images/book2/page12.jpg", title:"Roadmap"},
-                    {src:"images/book2/page13.jpg", title:"Equipe"},
-                    {src:"images/book2/page14.jpg", title:"Redes Sociais"},
+                    {src:"images/whitepaper_pages/page1.jpg", title:"Capa"},
+                    {src:"images/whitepaper_pages/page2.jpg", title:"Sumario"},
+                    {src:"images/whitepaper_pages/page3.jpg", title:"Introdução"},
+                    {src:"images/whitepaper_pages/page4.jpg", title:""},
+                    {src:"images/whitepaper_pages/page5.jpg", title:""},
+                    {src:"images/whitepaper_pages/page6.jpg", title:""},
+                    {src:"images/whitepaper_pages/page7.jpg", title:"Detalhes Técnicos"},
+                    {src:"images/whitepaper_pages/page8.jpg", title:""},
+                    {src:"images/whitepaper_pages/page9.jpg", title:""},
+                    {src:"images/whitepaper_pages/page10.jpg", title:"Plataformas"},
+                    {src:"images/whitepaper_pages/page11.jpg", title:""},
+                    {src:"images/whitepaper_pages/page12.jpg", title:"Roadmap"},
+                    {src:"images/whitepaper_pages/page13.jpg", title:"Equipe"},
+                    {src:"images/whitepaper_pages/page14.jpg", title:"Redes Sociais"},
                 ],
 
                 //menu
@@ -93,7 +97,7 @@
 
 </head>
 
-<body>
+<body oncontextmenu="return false;" class="js-noMenu">
 
 
             <a class=" flipbook-tocItem2 skin-color-bg skin-color" href="../index.html">

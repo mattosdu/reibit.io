@@ -1,5 +1,9 @@
 $(function () {
 
+    window.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+      }, false);
+      
     "use strict";
 
     //===== Prealoder
@@ -114,7 +118,7 @@ $(function () {
 
 
     $('.circle-1').circleProgress({
-        value: 0.20,
+        value: 0.30,
         size: 145,
         thickness: 6,
         lineCap: "round",
@@ -122,7 +126,7 @@ $(function () {
             gradient: ["#ffc50c", "#ffc50c"]
         }
     }).on('circle-animation-progress', function (event, progress) {
-        $(this).find('strong').html(Math.round(20 * progress) + '<i>%</i>');
+        $(this).find('strong').html(Math.round(30 * progress) + '<i>%</i>');
     });
 
 

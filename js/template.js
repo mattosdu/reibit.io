@@ -33,60 +33,6 @@ $(document).ready(function() {
 		}
 	});
 
-	// Top menu in header
-	if($(".top-menu-position-header.header-menu-bg").length > 0) {
-		// Check that menu in header and not mobile and not transparent 
-		$("header").addClass('top-menu-position-header');
-		$("header .header-center").prepend($(".top-menu-position-header.header-menu-bg"));
-		$("header .header-center").append($("header .header-right"));
-
-		if($(window).width() < 767) {
-			$("header.main-header.top-menu-position-header .navbar-inner .navbar-collapse").append($("header .header-right"));
-		}
-		
-	}
-
-	// Remove clearfix from posts grid in blog
-	$('.mgt-grid-posts .blog-post').removeClass('clearfix');
-
-	// Mobile menu clicks
-	$('.nav li > a, .header-menu li > a').on('click', function(e){
-		
-		if($(window).width() < 767) {
-			
-			if ( $(this).next(".sub-menu").length > 0 ) {
-				var sm = $(this).next(".sub-menu");
-			
-				if(sm.data('open') !== 1)
-				{
-					e.preventDefault();
-					e.stopPropagation();
-					sm.slideDown();
-
-					sm.data('open', 1);
-
-					$(this).parent().addClass('mobile-submenu-opened');
-
-				}
-				
-			}
-		}
-	});
-
-    // Remove animations on touch devices
-    function isTouchDevice(){
-	    return true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
-	}
-
-	if(isTouchDevice()===true) {
-	    $("#animations-css").remove();
-	}
-
-	$("select").select2({
-		allowClear: true,
-		minimumResultsForSearch: 10
-	});
-
 	// Mobile menu
 	$('.nav > li > a').on('click', function(e){
 		

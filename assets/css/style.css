@@ -519,6 +519,14 @@ p {
 	color: #fff
 }
 
+.section-subtitle .title {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 200;
+    color: #fff;
+    margin-top: 30px;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 	.section-title .title {
 		font-size: 38px;
@@ -1078,6 +1086,14 @@ p {
 	margin-left: 10px
 }
 
+@media only screen and (max-width: 767px) {
+	.banner-area>.social {
+		position: fixed;
+		display: block;
+		left: 20px !important;
+	}
+}
+
 .banner-area>.social {
 	position: absolute;
 	left: 50px;
@@ -1086,10 +1102,11 @@ p {
 	transform: translateY(-50%)
 }
 
-@media (max-width: 767px) {
+
+@media only screen and (min-width: 767px) {
 	.banner-area>.social {
 		display: block;
-		left: 20px
+		left: 20px;
 	}
 }
 
@@ -2528,9 +2545,10 @@ p {
 		padding-bottom: 100px
 	}
 }
-
-.token-sale-area .section-title {
-	padding: 8px 10px 90px
+@media (max-width: 1200px){
+	.token-sale-area .section-title {
+    	padding: 8px 10px 70px;
+	}
 }
 
 .token-sale-area .banefits-color-2 {
@@ -3498,7 +3516,7 @@ p {
 
 .team-area .team-item .team-thumb img {
 	width: 100%;
-	opacity: .8;
+	opacity: .9;
 	-webkit-transition: all .3s ease-out 0s;
 	transition: all .3s ease-out 0s
 }
@@ -3566,6 +3584,81 @@ p {
 }
 
 .team-area .team-item:hover .team-thumb img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1)
+}
+
+
+.download-area {
+	padding-top: 190px;
+	padding-bottom: 196px;
+	position: relative
+}
+
+@media (max-width: 767px){
+	.download-area {
+    	padding-top: 100px;
+    	padding-bottom: 100px;
+    	text-align: center;
+	}
+}
+
+.download-area .banefits-color-2 {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	z-index: -1;
+	width: 100%
+}
+
+.download-area .section-title .title {
+	padding: 8px 10px 0
+}
+
+.download-area .download-item {
+	border-radius: 5px;
+	overflow: hidden
+}
+
+.download-area .download-item .download-thumb {
+	position: relative;
+	overflow: hidden
+}
+
+.download-area .download-item .download-thumb img {
+	width: 100%;
+	-webkit-transition: all .3s ease-out 0s;
+	transition: all .3s ease-out 0s
+}
+
+.download-area .download-item .download-content {
+	background-color: #8c430e;
+	text-align: center;
+    padding: 20px 0px;
+}
+
+.download-area .download-item .download-content .title {
+	font-size: 22px;
+	font-weight: 500;
+	color: #fff
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.download-area .download-item .download-content .title {
+		font-size: 20px
+	}
+}
+
+.download-area .download-item .download-content span {
+	font-size: 13px;
+	font-weight: 500;
+	margin-top: -3px;
+	color: #d8d8d8
+}
+
+.download-area .download-item:hover .download-thumb img {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1)
 }
