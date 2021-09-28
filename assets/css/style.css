@@ -3515,10 +3515,13 @@ p {
 }
 
 .team-area .team-item .team-thumb img {
-	width: 100%;
-	opacity: .9;
-	-webkit-transition: all .3s ease-out 0s;
-	transition: all .3s ease-out 0s
+    width: 100%;
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    filter: grayscale(1);
+}
+.team-area .team-item:hover .team-thumb img {
+    filter: grayscale(0);
 }
 
 .team-area .team-item .team-content {
@@ -3584,7 +3587,7 @@ p {
 }
 
 .team-area .team-item:hover .team-thumb img {
-	-webkit-transform: scale(1.1);
+	-webkit-transform: scale(1.06);
 	transform: scale(1.1)
 }
 
