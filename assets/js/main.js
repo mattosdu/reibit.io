@@ -25,7 +25,7 @@ $(function () {
     });
 
     //===== Swiper
-    var menu = ['2018', '2021', '2022', '2023','2024'];
+    var menu = ['2018', '2019', '2020', '2021','2022','2023'];
     var mySwiper = new Swiper('.roadmap-main', {
         // Optional parameters
         loop: true,
