@@ -139,7 +139,7 @@ $(function () {
             gradient: ["#ffc50c", "#ffc50c"]
         }
     }).on('circle-animation-progress', function (event, progress) {
-        $(this).find('strong').html(Math.round(.03 * progress) + '<i>%</i>');
+        $(this).find('strong').html(Math.round(3 * progress) + '<i>%</i>');
     });
 
     $('.circle-3').circleProgress({
