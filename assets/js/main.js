@@ -130,18 +130,38 @@ $(function () {
     });
 
 
-    $('.circle-2').circleProgress({
-        value: .91,
-        size: 145,
-        thickness: 6,
-        lineCap: "round",
-        fill: {
-            gradient: ["#ffc50c", "#ffc50c"]
-        }
-    }).on('circle-animation-progress', function (event, progress) {
-        $(this).find('strong').html(Math.round(91 * progress) + '<i>%</i>');
-    });
 
+    var valormes = .90;
+  $('.circle-2').circleProgress({
+    value: valormes,
+    size: 145,
+    thickness: 6,
+    lineCap: "round",
+    fill: {
+        gradient: ["#ffc50c", "#ffc50c"]
+    }
+    
+}).on('circle-animation-progress', function (event, progress) {
+    $(this).find('strong').html(91 + '<i>%</i>');
+});
+
+function mudavalor() {
+    if (valormes = .905) {
+        valormes = .91;
+    }
+    else{
+        valormes = .905;
+    }
+}
+
+setInterval(()=>{
+    mudavalor();
+    $('.circle-2').circleProgress({ value: valormes, animationStartValue: .90,});
+  }, 1000);
+
+
+    
+ 
     $('.circle-3').circleProgress({
         value: 0,
         size: 145,
