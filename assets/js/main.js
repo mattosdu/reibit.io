@@ -131,7 +131,7 @@ $(function () {
 
 
 
-    var valormes = .90;
+    var valormes = .9099;
   $('.circle-2').circleProgress({
     value: valormes,
     size: 145,
@@ -146,11 +146,11 @@ $(function () {
 });
 
 function mudavalor() {
-    if (valormes = .905) {
-        valormes = .91;
+    if (valormes = .9099) {
+        valormes = .910;
     }
     else{
-        valormes = .905;
+        valormes = .9099;
     }
 }
 
