@@ -131,9 +131,9 @@ $(function () {
 
 
 
-    var valormes = .9099;
+
   $('.circle-2').circleProgress({
-    value: valormes,
+    value: .89,
     size: 145,
     thickness: 6,
     lineCap: "round",
@@ -145,19 +145,12 @@ $(function () {
     $(this).find('strong').html(91 + '<i>%</i>');
 });
 
-function mudavalor() {
-    if (valormes = .9099) {
-        valormes = .910;
-    }
-    else{
-        valormes = .9099;
-    }
-}
+
 
 setInterval(()=>{
-    mudavalor();
-    $('.circle-2').circleProgress({ value: valormes, animationStartValue: .90,});
-  }, 1000);
+    
+    $('.circle-2').circleProgress({ value: .91, animationStartValue: .89,});
+  }, 850);
 
 
     
