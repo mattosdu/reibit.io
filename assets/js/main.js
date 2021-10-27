@@ -133,7 +133,7 @@ $(function () {
 
 
   $('.circle-2').circleProgress({
-    value: .89,
+    value: .98,
     size: 145,
     thickness: 6,
     lineCap: "round",
@@ -142,14 +142,14 @@ $(function () {
     }
     
 }).on('circle-animation-progress', function (event, progress) {
-    $(this).find('strong').html(91 + '<i>%</i>');
+    $(this).find('strong').html(99 + '<i>%</i>');
 });
 
 
 
 setInterval(()=>{
     
-    $('.circle-2').circleProgress({ value: .91, animationStartValue: .89,});
+    $('.circle-2').circleProgress({ value: .99, animationStartValue: .98,});
   }, 850);
 
 
