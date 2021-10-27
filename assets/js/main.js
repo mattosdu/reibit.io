@@ -129,11 +129,8 @@ $(function () {
         $(this).find('strong').html(Math.round(100 * progress) + '<i>%</i>');
     });
 
-
-
-
   $('.circle-2').circleProgress({
-    value: .98,
+    value: 1,
     size: 145,
     thickness: 6,
     lineCap: "round",
@@ -142,15 +139,15 @@ $(function () {
     }
     
 }).on('circle-animation-progress', function (event, progress) {
-    $(this).find('strong').html(99 + '<i>%</i>');
+    $(this).find('strong').html(Math.round(100 * progress) + '<i>%</i>');
 });
 
 
 
-setInterval(()=>{
+/* setInterval(()=>{
     
     $('.circle-2').circleProgress({ value: .99, animationStartValue: .98,});
-  }, 850);
+  }, 850); */
 
 
     
