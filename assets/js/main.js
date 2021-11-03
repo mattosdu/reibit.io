@@ -161,7 +161,7 @@ $(function () {
             gradient: ["#ffc50c", "#ffc50c"]
         }
     }).on('circle-animation-progress', function (event, progress) {
-        $(this).find('strong').html(02 + '<i>%</i>');
+        $(this).find('strong').html(10 + '<i>%</i>');
     });
 
      setInterval(()=>{
