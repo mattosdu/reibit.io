@@ -1530,22 +1530,35 @@
 
     <!--====== jquery js ======-->
     <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="http://www.geoplugin.net/javascript.gp"></script>
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script>
-         jQuery(document).ready(function($) {
-    jQuery.getScript('//geoplugin.net/javascript.gp', function() 
-    {
-        var countryCode = geoplugin_countryCode();
-        if(countryCode = 'BR'){
-            if (window.confirm('Redirecionar para a versão em português do site Reibit?')) {
-                window.location.href = '//reibit.io/';
+
+fetch('https://ipapi.co/country/')
+ .then(response => {
+   if (response.ok) {
+     return response.text();
+   } else {
+     throw new Error('HTTP Error ' + response.status);
+   }
+ })
+ .then(country => {
+   if (country != BR) {} 
+   else {
+    if (window.confirm('Redirecionar para a versão em português do site Reibit?')) {
+                window.location.href = 'https://reibit.io/';
                 return False;
             }else{}
-        }
-    });
-});
+   }
+ })
+ .catch(function(error) {
+   // Network error
+   // Script blocked by browser extension
+   // 429 error (too many requests)
+   console.log(error);
+ });
         </script>
+
+        
 
     <!--====== revslider js ======-->
     <script src='js/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
