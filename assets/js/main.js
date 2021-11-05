@@ -29,6 +29,7 @@ $(function () {
     var mySwiper = new Swiper('.roadmap-main', {
         // Optional parameters
         loop: true,
+        initialSlide: 3,
         pagination: {
             el: '.swiper-custom-pagination',
             clickable: true,
@@ -54,7 +55,6 @@ $(function () {
             }
         }
     });
-
         // Single Features Active
         
 
