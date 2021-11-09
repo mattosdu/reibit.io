@@ -167,7 +167,7 @@ $(function () {
      
     
     $('.circle-4').circleProgress({
-        value: 0.01,
+        value: 0.17,
         size: 145,
         thickness: 6,
         lineCap: "round",
@@ -175,12 +175,12 @@ $(function () {
             gradient: ["#ffc50c", "#ffc50c"]
         }
     }).on('circle-animation-progress', function (event, progress) {
-        $(this).find('strong').html(1 + '<i>%</i>');
+        $(this).find('strong').html(17 + '<i>%</i>');
     });
 
     setInterval(()=>{
     
-        $('.circle-4').circleProgress({ value: .01, animationStartValue: .00,});
+        $('.circle-4').circleProgress({ value: .19, animationStartValue: .17,});
       }, 850);
 
 
