@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 #corpo-site{background-color: #242d5e; z-index: -10;}
-html {
+html, body {
     scroll-behavior: smooth;
   }
   @font-face {
@@ -32,3 +32,13 @@ i.mudafont{
 .main-btn.main-btn-4:hover {
 	background-position: right center
 }
+.translate{
+  display: none !important;
+  z-index: 99999999999 !important;
+  position:fixed !important;
+  left: 24px !important;
+  bottom: 100px !important;
+}
+
+.translate a{ margin-bottom: 4px;}
+.translate img{ width: 70%;}
