@@ -9,14 +9,6 @@
         "br": "XXXXXXXXXXX",
         "en": "A cryptocurrency created to function as a means of exchange and payment for all platforms and services, bringing a series of advantages to its holders."
       },
-      "text-translate": {
-        "br": "assets/images/br-flag.png",
-        "en": "assets/images/usa-flag.png"
-      },
-      "link-translate": {
-        "br": "tinyi18n.setLang('en'); return false;",
-        "en": "tinyi18n.setLang('br'); return false;"
-      },
       "Sobre": {
         "br": "Sobre",
         "en": "About"
