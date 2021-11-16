@@ -1,7 +1,16 @@
+var userLang = navigator.language || navigator.userLanguage;
+if (userLang ='pt-BR'){
+	navegadoridioma = 'br';
+ } else if (userLang ='pt-PT') {
+	navegadoridioma = 'br';
+ } else{
+	navegadoridioma = 'en';
+ }
+
 let tinyi18n = {
 	_data: null,
 	_translate_elements: null,
-	_current_language: 'br',
+	_current_language: navegadoridioma,
 
 	getLang: function(new_language) {
 		return tinyi18n._current_language
@@ -42,7 +51,6 @@ let tinyi18n = {
 			if (request.readyState == 4 && request.status == '200') {
 				tinyi18n._data = JSON.parse(request.responseText)
 				tinyi18n._translate_elements = document.querySelectorAll('[data-translatekey]') // Get all elements with a translate key
-				tinyi18n._current_language = tinyi18n._data.default_language || 'br'
 
 				tinyi18n.setLang(tinyi18n._current_language)
 			}

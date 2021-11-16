@@ -1,5 +1,4 @@
 {
-    "default_language": "br",
     "languages": ["br", "en"],
     "translations": {
       "title": {
@@ -11,8 +10,8 @@
         "en": "A cryptocurrency created to function as a means of exchange and payment for all platforms and services, bringing a series of advantages to its holders."
       },
       "text-translate": {
-        "br": "PT",
-        "en": "EN"
+        "br": "assets/images/br-flag.png",
+        "en": "assets/images/usa-flag.png"
       },
       "link-translate": {
         "br": "tinyi18n.setLang('en'); return false;",

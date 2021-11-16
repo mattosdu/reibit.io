@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="br">
+<html>
 <head>
     <!--====== Required meta tags ======-->
     <meta charset="utf-8">
@@ -109,16 +109,13 @@
                                         
                                     </ul>
                                 </div> <!-- navbar collapse -->
-                                <div class="navbar-btn navbar-nav d-none d-sm-flex">
+                                
+                                <div class="navbar-btn navbar-nav">
                                     
                                     <ul>
-                                        <li>
-                                            
-            <a href="#" style="padding: 7px;margin-right: 7px;border: 1px solid; color: #fff;" data-translatekey="link-translate" data-translateattribute="onclick" onclick=""><span data-translatekey="text-translate"> </span></a>
-        
-                                        </li>
-                                        <li><a class="main-btn main-btn-4" data-translatekey="canaldescricao" data-translateattribute="title" title="" target="_blank" href="https://www.youtube.com/c/reidobitcoinoficial"><i class="fab fa-youtube"></i> YouTube</a></li>
-                                        <li><a class="main-btn-2 main-btn" data-translatekey="explorerdescricao" data-translateattribute="title" title="" target="_blank" href="http://explorer.reibit.io/">Explorer</a></li>
+                                        <li class=""><a href="#" style="margin-right: 7px;display: inline-block;" data-translatekey="link-translate" data-translateattribute="onclick" onclick=""><img  data-translateattribute="src" src="" data-translatekey="text-translate"> </span></a></li>
+                                        <li class="cancela"><a class="main-btn main-btn-4" data-translatekey="canaldescricao" data-translateattribute="title" title="" target="_blank" href="https://www.youtube.com/c/reidobitcoinoficial"><i class="fab fa-youtube"></i> YouTube</a></li>
+                                        <li class="cancela"><a class="main-btn-2 main-btn" data-translatekey="explorerdescricao" data-translateattribute="title" title="" target="_blank" href="http://explorer.reibit.io/">Explorer</a></li>
                                     </ul>
                                 </div>
                                 
@@ -1550,32 +1547,6 @@
     <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/tinyi18n.js"></script>
-    <script>
-
-        fetch('https://ipapi.co/country/')
-         .then(response => {
-           if (response.ok) {
-             return response.text();
-           } else {
-             throw new Error('HTTP Error ' + response.status);
-           }
-         })
-         .then(country => {
-           if (country == 'BR') {} 
-           else {
-            if (window.confirm('Redirect to english version of Reibit site?')) {
-                        window.location.href = 'https://reibit.io/english.html';
-                        return False;
-                    }else{}
-           }
-         })
-         .catch(function(error) {
-           // Network error
-           // Script blocked by browser extension
-           // 429 error (too many requests)
-           console.log(error);
-         });
-                </script>
 
     <!--====== revslider js ======-->
     <script src='js/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
