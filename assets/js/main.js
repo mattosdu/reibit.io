@@ -167,7 +167,7 @@ $(function () {
      
     
     $('.circle-4').circleProgress({
-        value: 0.93,
+        value: 1,
         size: 145,
         thickness: 6,
         lineCap: "round",
