@@ -182,7 +182,7 @@ $(function () {
 
 
     $('.circle-5').circleProgress({
-        value: 0,
+        value: 0.01,
         size: 145,
         thickness: 6,
         lineCap: "round",
@@ -190,7 +190,7 @@ $(function () {
             gradient: ["#ffc50c", "#ffc50c"]
         }
     }).on('circle-animation-progress', function (event, progress) {
-        $(this).find('strong').html(Math.round(0 * progress) + '<i>%</i>');
+        $(this).find('strong').html(Math.round(1 * progress) + '<i>%</i>');
     });
 
 
