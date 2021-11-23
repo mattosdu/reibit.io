@@ -49,6 +49,14 @@
         "br": "Conheça o mundo das criptomoedas com a reibit: um ecossistema completo para seu aprendizado e desenvolvimento.",
         "en": "Experience the world of cryptocurrencies with reibit: a complete ecosystem for your learning and development."
       },
+      "whitepaper-link": {
+        "br": "//reibit.io/whitepaper",
+        "en": "//reibit.io/whitepaper-en"
+      },
+      "whitepaper-pdf-link": {
+        "br": "//reibit.io/whitepaper/whitepaper-2.0.pdf",
+        "en": "//reibit.io/whitepaper-en/whitepaper-2.0-en.pdf"
+      },
       "ComprarRIT": {
         "br": "Comprar RIT",
         "en": "BUY RITs"
@@ -508,6 +516,10 @@
       "Links Uteis": {
         "br": "Links Uteis",
         "en": "Useful links"
+      },
+      "Contato": {
+        "br": "Contato",
+        "en": "Contact"
       },
       "Criado com ❤️ por": {
         "br": "Criado com ❤️ por",

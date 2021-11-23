@@ -63,3 +63,13 @@ let tinyi18n = {
 
 
       tinyi18n.loadTranslations('assets/traducao.json')
+
+	  $( "#slide-1-layer-6" ).click(function() {
+		  if (tinyi18n.getLang() == "en") {
+			window.open('//reibit.io/whitepaper-en', '_blank');
+			
+		  }
+		else{
+			window.open('//reibit.io/whitepaper', '_blank');
+		}
+	  });
