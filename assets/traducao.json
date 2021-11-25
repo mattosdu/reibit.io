@@ -1,529 +1,537 @@
 {
     "languages": ["br", "en"],
     "translations": {
-      "title": {
-        "br": "REIBIT – O futuro da tecnologia de negócios",
-        "en": "REIBIT – The future of business technology"
-      },
-      "description": {
-        "br": "Uma criptomoeda criada para funcionar como meio de troca e pagamento para todas as plataformas e serviços, trazendo uma série de vantagens aos seus titulares.",
-        "en": "A cryptocurrency created to function as a means of exchange and payment for all platforms and services, bringing a series of advantages to its holders."
-      },
-      "Sobre": {
-        "br": "Sobre",
-        "en": "About"
-      },
-      "Comprar": {
-        "br": "Comprar",
-        "en": "Buy"
-      },
-      "Distribuicao": {
-        "br": "Distribuição",
-        "en": "Distribution"
-      },
-      "Roadmap": {
-        "br": "Roadmap",
-        "en": "Roadmap"
-      },
-      "Parceiros": {
-        "br": "Parceiros",
-        "en": "Partners"
-      },
-      "Downloads": {
-        "br": "Downloads",
-        "en": "Downloads"
-      },
-      "canaldescricao": {
-        "br": "Tudo sobre o mundo das criptomoedas, bitcoin e altcoins",
-        "en": "All about the world of cryptocurrencies, bitcoin and altcoin"
-      },
-      "explorerdescricao": {
-        "br": "Transações e informações tecnicas sobre a reibit",
-        "en": "Transactions and technical information about reibit"
-      },
-      "eofuturo": {
-        "br": "é o futuro da tecnologia de negócios",
-        "en": "is the future of business technology"
-      },
-      "textobanner": {
-        "br": "Conheça o mundo das criptomoedas com a reibit: um ecossistema completo para seu aprendizado e desenvolvimento.",
-        "en": "Experience the world of cryptocurrencies with reibit: a complete ecosystem for your learning and development."
-      },
-      "whitepaper-link": {
-        "br": "//reibit.io/whitepaper",
-        "en": "//reibit.io/whitepaper-en"
-      },
-      "whitepaper-pdf-link": {
-        "br": "//reibit.io/whitepaper/whitepaper-2.0.pdf",
-        "en": "//reibit.io/whitepaper-en/whitepaper-2.0-en.pdf"
-      },
-      "ComprarRIT": {
-        "br": "Comprar RIT",
-        "en": "BUY RITs"
-      },
-      "oqueereibit": {
-        "br": "O que é REIBIT",
-        "en": "What is REIBIT"
-      },
-      "oqueereibit2": {
-        "br": "Uma criptomoeda com projeto transparente que possui diversos benefícios",
-        "en": "A cryptocurrency with a transparent project with several benefits"
-      },
-      "oqueereibit3": {
-        "br": "Um projeto transparente, que vai contar com um roadmap robusto, uma equipe capacitada, e serviços inovadores, capaz de dar uma injeção de ânimo em qualquer investidor visionário.",
-        "en": "A transparent project, with a robust roadmap, a skilled team, and innovative services, capable of giving a boost to any visionary investor."
-      },
-      "missao": {
-        "br": "Nossa Missão",
-        "en": "Our mission"
-      },
-      "missao2": {
-        "br": "Iremos criar um ecossistema voltado para o mundo das criptomoedas completo e robusto, trazendo facilidade e simplicidade para as pessoas que não possuem experiência no mercado, desenvolvendo uma gama de ferramentas e plataformas.",
-        "en": "We will create a complete and robust cryptocurrency oriented ecosystem, bringing ease and simplicity to people who are new in the market, developing a range of tools and platforms."
-      },
-      "visao": {
-        "br": "Nossa Visão",
-        "en": "our vision"
-      },
-      "visao2": {
-        "br": "As criptomoedas foram criadas com o intuito de ser um ativo digital capaz de atuar como meio de troca. Nós acreditamos nas tecnologias desenvolvidas a partir delas e assim a moeda REIBIT irá contar com serviços cujo propósito é contribuir com a propagação e o avanço das criptomoedas de forma global.",
-        "en": "Cryptocurrencies were created with the intention of being a digital asset capable of acting as a means of exchange. We believe in the technologies developed from them and thus the REIBIT currency will have services with the purpose to contribute to spread and share the cryptocurrencies in a global way."
-      },
-      "futuro": {
-        "br": "O Futuro",
-        "en": "The future"
-      },
-      "futuro2": {
-        "br": "Sempre estivemos em busca da inovação e da disseminação das criptomoedas e seus conhecimentos. A REIBIT garantirá a todos benefícios que envolvem lucro real e conhecimento por meio dos projetos desenvolvidos.",
-        "en": "We have always been looking for innovation and dissemination of cryptocurrencies and their knowledge. REIBIT will guarantee all benefits that involve real profit and knowledge through the development of projects."
-      },
-      "tistantaneas": {
-        "br": "Transações Instantâneas",
-        "en": "Instant Transactions"
-      },
-      "tistantaneas2": {
-        "br": "A REIBIT é transacionada instatâneamente podendo assim ser utilizada quase no mesmo momento pelo receptor",
-        "en": "REIBIT is transacted instantly and can be used almost at the same time by the receiver"
-      },
-      "certtec": {
-        "br": "Certificado de Tecnologia",
-        "en": "Technology Certificate"
-      },
-      "certtec2": {
-        "br": "A REIBIT irá proporcionar taxa zero e privacidade total para seus usuários",
-        "en": "REIBIT will provide zero rate and total privacy for its users"
-      },
-      "mnpos": {
-        "br": "Masternodes e POS",
-        "en": "Masternodes and POS"
-      },
-      "mnpos2": {
-        "br": "Utilizando a tecnologia de masternode e também pos todos os holders de RIT ganharão incentivos por contribuir com a rede",
-        "en": "Using masternode technology and also POS all RIT holders will gain incentives for contributing with the network"
-      },
-      "beneficios": {
-        "br": "BENEFÍCIOS",
-        "en": "BENEFITS"
-      },
-      "beneficios2": {
-        "br": "Conheça os benefícios em comprar RIT",
-        "en": "Discover the benefits of buying RIT"
-      },
-      "facilidades": {
-        "br": "FACILIDADE",
-        "en": "FACILITY"
-      },
-      "facilidades2": {
-        "br": "Nossas plataformas serão intuitivas e muito fáceis de utilizar.",
-        "en": "Our platforms will be intuitive and very easy to use."
-      },
-      "premios": {
-        "br": "PRÊMIOS",
-        "en": "AWARDS"
-      },
-      "premios2": {
-        "br": "Receba prêmios e promoções especiais em nossas plataformas por ter RIT.",
-        "en": "Receive special rewards and promotions on our platforms for having RIT."
-      },
-      "suporte": {
-        "br": "SUPORTE",
-        "en": "SUPPORT"
-      },
-      "suporte2": {
-        "br": "Uma equipe pronta em tirar suas dúvidas e te ajudar no que precisar.",
-        "en": "A team ready to answer your questions and help you with whatever you need."
-      },
-      "seguranca": {
-        "br": "TOTAL SEGURANÇA",
-        "en": "TOTAL SECURITY"
-      },
-      "seguranca2": {
-        "br": "Nossas plataformas contarão com alta tecnologia de segurança e transparência.",
-        "en": "Our platforms will feature high security and transparent technologies."
-      },
-      "vendasrit": {
-        "br": "Vendas RIT",
-        "en": "RIT sales"
-      },
-      "etapasdevendas": {
-        "br": "Etapas de Venda",
-        "en": "Sales Steps"
-      },
-      "step": {
-        "br": "Etapa",
-        "en": "Step"
-      },
-      "step1p": {
-        "br": "R$0,20",
-        "en": "0,036 $"
-      },
-      "step2p": {
-        "br": "R$0,24",
-        "en": "0,043 $"
-      },
-      "step3p": {
-        "br": "R$0,35",
-        "en": "0,063 $"
-      },
-      "step4p": {
-        "br": "R$0,67",
-        "en": "0,12 $"
-      },
-      "step5p": {
-        "br": "R$0,99",
-        "en": "0,18 $"
-      },
-      "aproveite": {
-        "br": "Aproveite a 5ª Etapa para comprar RITs por apenas",
-        "en": "Enjoy the advantage of Step 5 to buy RITs for just"
-      },
-      "aproveite2": {
-        "br": "R$0,99",
-        "en": "0,18 $"
-      },
-      "Airdrops": {
-        "br": "Airdrops/Premiações",
-        "en": "Airdrops/Awards"
-      },
-      "Mineração": {
-        "br": "Mineração",
-        "en": "Mining"
-      },
-      "Desenvolvimentos": {
-        "br": "Desenvolvimentos",
-        "en": "Developments"
-      },
-      "Vendas": {
-        "br": "Vendas",
-        "en": "Sales"
-      },
-      "Desenvolvedores": {
-        "br": "Desenvolvedores",
-        "en": "Developers"
-      },
-      "premine": {
-        "br": "Pré-Mine",
-        "en": "Pre-Mine"
-      },
-      "ROADMAP": {
-        "br": "ROADMAP",
-        "en": "ROADMAP"
-      },
-      "Do início ao futuro": {
-        "br": "Do início ao futuro",
-        "en": "From beginning to future"
-      },
-      "Criação do canal no YouTube: REIDOBITCOIN": {
-        "br": "Criação do canal no YouTube: REIDOBITCOIN",
-        "en": "Creation of the YouTube channel REIDOBITCOIN"
-      },
-      "Buscar de parceria com outros canais": {
-        "br": "Buscar de parceria com outros canais",
-        "en": "Search for partnerships with other channels"
-      },
-      "Criação das redes sociais do canal": {
-        "br": "Criação das redes sociais do canal",
-        "en": "Create the channel social networks"
-      },
-      "SEO do canal no Youtube": {
-        "br": "SEO do canal no Youtube",
-        "en": "Search engine optimization in the channel"
-      },
-      "PROGRESSO": {
-        "br": "PROGRESSO",
-        "en": "PROGRESS"
-      },
-      "Publicação de vídeos no canal REIDOBITCOIN": {
-        "br": "Publicação de vídeos no canal REIDOBITCOIN",
-        "en": "Videos publications in the REIDOBITCOIN channel"
-      },
-      "Parceria com canais de criptomoedas": {
-        "br": "Parceria com canais de criptomoedas",
-        "en": "Partnerships with criptocurrency channels"
-      },
-      "Atualização das redes sociais": {
-        "br": "Atualização das redes sociais",
-        "en": "Social midia atualization"
-      },
-      "Parceria com a FanáticosCriptos": {
-        "br": "Parceria com a FanáticosCriptos",
-        "en": "Fanáticos Criptos partnership"
-      },
-      "Branding da REIBIT": {
-        "br": "Branding da REIBIT",
-        "en": "REIBIT branding"
-      },
-      "Criação de materiais de apoio para divulgação": {
-        "br": "Criação de materiais de apoio para divulgação",
-        "en": "Creation of support materials for dissemination"
-      },
-      "Desenvolvimento da REIBIT": {
-        "br": "Desenvolvimento da blockchain REIBIT",
-        "en": "Development of REIBIT blockchain"
-      },
-      "Criação do site institucional da criptomoeda REIBIT.IO v1.0": {
-        "br": "Criação do site institucional da criptomoeda REIBIT.IO v1.0",
-        "en": "Institutional web site of criptocurrency REIBIT v1.0 BR creation"
-      },
-      "Whitepaper v1.0": {
-        "br": "Whitepaper v1.0",
-        "en": "Whitepaper v1.0"
-      },
-      "Roadmap v1.0": {
-        "br": "Roadmap v1.0",
-        "en": "Roadmap v1.0"
-      },
-      "Lançamento da criptomoeda REIBIT": {
-        "br": "Lançamento da criptomoeda REIBIT",
-        "en": "Launch of REIBIT criptocurrency"
-      },
-      "Explorer v1.0": {
-        "br": "Explorer v1.0",
-        "en": "Explorer v1.0"
-      },
-      "Parceria com outros projetos": {
-        "br": "Parceria com outros projetos",
-        "en": "Partnerships with other projects"
-      },
-      "Listagem na FCBETTING": {
-        "br": "Listagem na FCBETTING",
-        "en": "Listing on FCBETTING"
-      },
-      "Listagem na SeedList": {
-        "br": "Listagem na SeedList",
-        "en": "Listing on SeedList"
-      },
-      "Aumento de membros na comunidade": {
-        "br": "Aumento de membros na comunidade",
-        "en": "Boost of marketing and propaganda"
-      },
-      "Parceria com projetos": {
-        "br": "Parceria com projetos",
-        "en": "Partnerships with projects"
-      },
-      "Atualização do site REIBIT.IO para a v2.0": {
-        "br": "Update of REIBIT website to v2.0",
-        "en": "Update of REIBIT website to v2"
-      },
-      "Masternode na wallet REIBIT": {
-        "br": "Masternode na wallet REIBIT",
-        "en": "Masternode na wallet REIBIT"
-      },
-      "Whitepaper v2.0": {
-        "br": "Whitepaper v2.0",
-        "en": "Whitepaper v2.0"
-      },
-      "Roadmap v2.0": {
-        "br": "Roadmap v2.0",
-        "en": "Roadmap v2.0"
-      },
-      "Explorer v2.0": {
-        "br": "Explorer v2.0",
-        "en": "Explorer v2.0"
-      },
-      "Webwallet REIBIT v1.0": {
-        "br": "Webwallet REIBIT v1.0",
-        "en": "Webwallet REIBIT v1.0"
-      },
-      "Criação da TOKENBIT v1.0": {
-        "br": "Criação da TOKENBIT v1.0",
-        "en": "creation of TOKENBIT v1.0"
-      },
-      "Listagem no MASTER STAKING MOBILE": {
-        "br": "Listagem no MASTER STAKING MOBILE",
-        "en": "Listing on MASTER STAKING MOBILE"
-      },
-      "Listagem no coingecko": {
-        "br": "Listagem no coingecko",
-        "en": "Listing on coingecko"
-      },
-      "Listagem no CoinMarketcap": {
-        "br": "Listagem no CoinMarketcap",
-        "en": "Listing on CoinMarketcap"
-      },
-      "Listagem em EXCHANGES": {
-        "br": "Listagem em EXCHANGES",
-        "en": "Listing on EXCHANGES"
-      },
-      "Listagem na MASTERNODE.BIZ": {
-        "br": "Listagem na MASTERNODE.BIZ",
-        "en": "Listing on MASTERNODE.BIZ"
-      },
-      "Impulso de marketing e propaganda": {
-        "br": "Impulso de marketing e propaganda",
-        "en": "Boost of marketing and propaganda"
-      },
-      "Criação do aplicativo REIBIT": {
-        "br": "Criação do aplicativo REIBIT",
-        "en": "REIBIT applicattion creation"
-      },
-      "Parceira com outros projetos": {
-        "br": "Parceira com outros projetos",
-        "en": "Partnerships with other channels"
-      },
-      "Atualização do canal REIDOBITCOIN": {
-        "br": "Atualização do canal REIDOBITCOIN",
-        "en": "REIDOBITCOIN channel update"
-      },
-      "20.000 Inscritos no canal REIDOBITCOIN": {
-        "br": "20.000 Inscritos no canal REIDOBITCOIN",
-        "en": "20.000 subscribes on REIDOBITCOIN channel"
-      },
-      "Site de apresentação para o canal": {
-        "br": "Site de apresentação para o canal",
-        "en": "Appresentation website of the channel"
-      },
-      "Atualização da plataforma TOKENBIT": {
-        "br": "Atualização da plataforma TOKENBIT",
-        "en": "Partnerships with other projects"
-      },
-      "criptomoeda REIBIT Integrada a plataforma de jogos LUNARIUM GAMES": {
-        "br": "criptomoeda REIBIT Integrada a plataforma de jogos LUNARIUM GAMES",
-        "en": "Update of TOKENBIT Platform"
-      },
-      "integração com outras blockchains": {
-        "br": "integração com outras blockchains",
-        "en": "REIBIT criptocurrency integration in games platform"
-      },
-      "Atualização do site REIBIT.IO para a v3.0": {
-        "br": "Atualização do site REIBIT.IO para a v3.0",
-        "en": "Integration in other blockchains"
-      },
-      "Listagem em EXCHANGE(S)": {
-        "br": "Listagem em EXCHANGE(S)",
-        "en": "Listing on Exchange(s)"
-      },
-      "Aumento da comunidade RIT": {
-        "br": "Aumento da comunidade RIT",
-        "en": "Growth of RIT community"
-      },
-      "Canais parceiros do projetos": {
-        "br": "Canais parceiros do projetos",
-        "en": "Project partners channel"
-      },
-      "Atualização do APLICATIVO para a v2.0": {
-        "br": "Atualização do APLICATIVO para a v2.0",
-        "en": "Application update to v2.0"
-      },
-      "Criação da plataforma MASTERBIT": {
-        "br": "Criação da plataforma MASTERBIT",
-        "en": "Creation of MASTERBIT platform"
-      },
-      "Atualização do canal": {
-        "br": "Atualização do canal",
-        "en": "Channel update"
-      },
-      "Busca por empresas de grande porte como parceiras": {
-        "br": "Busca por empresas de grande porte como parceiras",
-        "en": "Search for large companies as partners"
-      },
-      "Atualização do site REIBIT.IO para a v4.0": {
-        "br": "Atualização do site REIBIT.IO para a v4.0",
-        "en": "Update of REIBIT website for v4.0"
-      },
-      "Atualização do roadmap para a v3.0": {
-        "br": "Atualização do roadmap para a v3.0",
-        "en": "Update of roadmap for v3.0"
-      },
-      "Criação da exchange descentralizada REIBIT": {
-        "br": "Criação da exchange descentralizada REIBIT",
-        "en": "Creation of REIBIT decentralized exchange"
-      },
-      "30.000 Inscritos no canal REIDOBITCOIN": {
-        "br": "30.000 Inscritos no canal REIDOBITCOIN",
-        "en": "30.000 subscribes In REIDOBITCOIN channel"
-      },
-      "E muito mais": {
-        "br": "E muito mais",
-        "en": "And much more"
-      },
-      "Nossa Alta Administração": {
-        "br": "Nossa Alta Administração",
-        "en": "Our Senior Management"
-      },
-      "Conheça Nossa Equipe Executiva": {
-        "br": "Conheça Nossa Equipe Executiva",
-        "en": "Meet Our Executive Team"
-      },
-      "QUEM ESTÁ CONOSCO NESSA": {
-        "br": "QUEM ESTÁ CONOSCO NESSA",
-        "en": "WHO IS WITH US IN THIS"
-      },
-      "Parceiros Que Apoiam Nosso Projeto": {
-        "br": "Parceiros Que Apoiam Nosso Projeto",
-        "en": "Partners That Support Our Project"
-      },
-      "Carteiras e outras ferramentas": {
-        "br": "Carteiras e outras ferramentas",
-        "en": "Wallets and other tools"
-      },
-      "Carteira para android, IOS, e WebWallet em breve!": {
-        "br": "Carteira para android, IOS, e WebWallet em breve!",
-        "en": "Wallet for android, IOS, and WebWallet coming soon!"
-      },
-      "Sobre a REIBIT": {
-        "br": "Sobre a REIBIT",
-        "en": "Sobre a REIBIT"
-      },
-      "Uma criptomoeda criada para funcionar como meio de troca e pagamento para todas as plataformas e serviços, trazendo uma série de vantagens para seus portadores.": {
-        "br": "Uma criptomoeda criada para funcionar como meio de troca e pagamento para todas as plataformas e serviços, trazendo uma série de vantagens para seus portadores.",
-        "en": "A cryptocurrency created to function as a means of exchange and payment for all platforms and services, bringing a series of advantages to its holders."
-      },
-      "Comprar RITs": {
-        "br": "Comprar RITs",
-        "en": "Buy RITs"
-      },
-      "Acessar Whitepaper": {
-        "br": "Acessar Whitepaper",
-        "en": "Access Whitepaper"
-      },
-      "baixar Whitepaper": {
-        "br": "Baixar Whitepaper",
-        "en": "Download Whitepaper"
-      },
-      "Ver Explorer": {
-        "br": "Ver Explorer",
-        "en": "See Explorer"
-      },
-      "Canal no YouTube": {
-        "br": "Canal no YouTube",
-        "en": "YouTube Channel"
-      },
-      "Para entrar em contato com a equipe da REIBIT utilize as redes sociais oficiais do projeto": {
-        "br": "Para entrar em contato com a equipe da REIBIT utilize as redes sociais oficiais do projeto",
-        "en": "To contact the REIBIT team, use the project's official social networks"
-      },
-      "Links Uteis": {
-        "br": "Links Uteis",
-        "en": "Useful links"
-      },
-      "Contato": {
-        "br": "Contato",
-        "en": "Contact"
-      },
-      "Criado com ❤️ por": {
-        "br": "Criado com ❤️ por",
-        "en": "Created with ❤️ by"
-      }
+        "title": {
+            "br": "REIBIT – O futuro da tecnologia de negócios",
+            "en": "REIBIT – The future of business technology"
+        },
+        "description": {
+            "br": "Uma criptomoeda criada para funcionar como meio de troca e pagamento para todas as plataformas e serviços, trazendo uma série de vantagens aos seus titulares.",
+            "en": "A cryptocurrency created to function as a means of exchange and payment for all platforms and services, bringing a series of advantages to its holders."
+        },
+        "Sobre": {
+            "br": "Sobre",
+            "en": "About"
+        },
+        "Comprar": {
+            "br": "Comprar",
+            "en": "Buy"
+        },
+        "Distribuicao": {
+            "br": "Distribuição",
+            "en": "Distribution"
+        },
+        "Roadmap": {
+            "br": "Roadmap",
+            "en": "Roadmap"
+        },
+        "Parceiros": {
+            "br": "Parceiros",
+            "en": "Partners"
+        },
+        "Downloads": {
+            "br": "Downloads",
+            "en": "Downloads"
+        },
+        "canaldescricao": {
+            "br": "Tudo sobre o mundo das criptomoedas, bitcoin e altcoins",
+            "en": "All about the world of cryptocurrencies, bitcoin and altcoin"
+        },
+        "explorerdescricao": {
+            "br": "Transações e informações tecnicas sobre a reibit",
+            "en": "Transactions and technical information about reibit"
+        },
+        "eofuturo": {
+            "br": "é o futuro da tecnologia de negócios",
+            "en": "is the future of business technology"
+        },
+        "textobanner": {
+            "br": "Conheça o mundo das criptomoedas com a reibit: um ecossistema completo para seu aprendizado e desenvolvimento.",
+            "en": "Experience the world of cryptocurrencies with reibit: a complete ecosystem for your learning and development."
+        },
+        "whitepaper-link": {
+            "br": "//reibit.io/whitepaper",
+            "en": "//reibit.io/whitepaper-en"
+        },
+        "whitepaper-pdf-link": {
+            "br": "//reibit.io/whitepaper/whitepaper-2.0.pdf",
+            "en": "//reibit.io/whitepaper-en/whitepaper-2.0-en.pdf"
+        },
+        "ComprarRIT": {
+            "br": "Comprar RIT",
+            "en": "BUY RITs"
+        },
+        "oqueereibit": {
+            "br": "O que é REIBIT",
+            "en": "What is REIBIT"
+        },
+        "oqueereibit2": {
+            "br": "Uma criptomoeda com projeto transparente que possui diversos benefícios",
+            "en": "A cryptocurrency with a transparent project with several benefits"
+        },
+        "oqueereibit3": {
+            "br": "Um projeto transparente, que vai contar com um roadmap robusto, uma equipe capacitada, e serviços inovadores, capaz de dar uma injeção de ânimo em qualquer investidor visionário.",
+            "en": "A transparent project, with a robust roadmap, a skilled team, and innovative services, capable of giving a boost to any visionary investor."
+        },
+        "missao": {
+            "br": "Nossa Missão",
+            "en": "Our mission"
+        },
+        "missao2": {
+            "br": "Iremos criar um ecossistema voltado para o mundo das criptomoedas completo e robusto, trazendo facilidade e simplicidade para as pessoas que não possuem experiência no mercado, desenvolvendo uma gama de ferramentas e plataformas.",
+            "en": "We will create a complete and robust cryptocurrency oriented ecosystem, bringing ease and simplicity to people who are new in the market, developing a range of tools and platforms."
+        },
+        "visao": {
+            "br": "Nossa Visão",
+            "en": "our vision"
+        },
+        "visao2": {
+            "br": "As criptomoedas foram criadas com o intuito de ser um ativo digital capaz de atuar como meio de troca. Nós acreditamos nas tecnologias desenvolvidas a partir delas e assim a moeda REIBIT irá contar com serviços cujo propósito é contribuir com a propagação e o avanço das criptomoedas de forma global.",
+            "en": "Cryptocurrencies were created with the intention of being a digital asset capable of acting as a means of exchange. We believe in the technologies developed from them and thus the REIBIT currency will have services with the purpose to contribute to spread and share the cryptocurrencies in a global way."
+        },
+        "futuro": {
+            "br": "O Futuro",
+            "en": "The future"
+        },
+        "futuro2": {
+            "br": "Sempre estivemos em busca da inovação e da disseminação das criptomoedas e seus conhecimentos. A REIBIT garantirá a todos benefícios que envolvem lucro real e conhecimento por meio dos projetos desenvolvidos.",
+            "en": "We have always been looking for innovation and dissemination of cryptocurrencies and their knowledge. REIBIT will guarantee all benefits that involve real profit and knowledge through the development of projects."
+        },
+        "tistantaneas": {
+            "br": "Transações Instantâneas",
+            "en": "Instant Transactions"
+        },
+        "tistantaneas2": {
+            "br": "A REIBIT é transacionada instatâneamente podendo assim ser utilizada quase no mesmo momento pelo receptor",
+            "en": "REIBIT is transacted instantly and can be used almost at the same time by the receiver"
+        },
+        "certtec": {
+            "br": "Certificado de Tecnologia",
+            "en": "Technology Certificate"
+        },
+        "certtec2": {
+            "br": "A REIBIT irá proporcionar taxa zero e privacidade total para seus usuários",
+            "en": "REIBIT will provide zero rate and total privacy for its users"
+        },
+        "mnpos": {
+            "br": "Masternodes e POS",
+            "en": "Masternodes and POS"
+        },
+        "mnpos2": {
+            "br": "Utilizando a tecnologia de masternode e também pos todos os holders de RIT ganharão incentivos por contribuir com a rede",
+            "en": "Using masternode technology and also POS all RIT holders will gain incentives for contributing with the network"
+        },
+        "beneficios": {
+            "br": "BENEFÍCIOS",
+            "en": "BENEFITS"
+        },
+        "beneficios2": {
+            "br": "Conheça os benefícios em comprar RIT",
+            "en": "Discover the benefits of buying RIT"
+        },
+        "facilidades": {
+            "br": "FACILIDADE",
+            "en": "FACILITY"
+        },
+        "facilidades2": {
+            "br": "Nossas plataformas serão intuitivas e muito fáceis de utilizar.",
+            "en": "Our platforms will be intuitive and very easy to use."
+        },
+        "premios": {
+            "br": "PRÊMIOS",
+            "en": "AWARDS"
+        },
+        "premios2": {
+            "br": "Receba prêmios e promoções especiais em nossas plataformas por ter RIT.",
+            "en": "Receive special rewards and promotions on our platforms for having RIT."
+        },
+        "suporte": {
+            "br": "SUPORTE",
+            "en": "SUPPORT"
+        },
+        "suporte2": {
+            "br": "Uma equipe pronta em tirar suas dúvidas e te ajudar no que precisar.",
+            "en": "A team ready to answer your questions and help you with whatever you need."
+        },
+        "seguranca": {
+            "br": "TOTAL SEGURANÇA",
+            "en": "TOTAL SECURITY"
+        },
+        "seguranca2": {
+            "br": "Nossas plataformas contarão com alta tecnologia de segurança e transparência.",
+            "en": "Our platforms will feature high security and transparent technologies."
+        },
+        "vendasrit": {
+            "br": "Vendas RIT",
+            "en": "RIT sales"
+        },
+        "etapasdevendas": {
+            "br": "Etapas de Venda",
+            "en": "Sales Steps"
+        },
+        "step": {
+            "br": "Etapa",
+            "en": "Step"
+        },
+        "step1p": {
+            "br": "R$0,20",
+            "en": "0,036 $"
+        },
+        "step2p": {
+            "br": "R$0,24",
+            "en": "0,043 $"
+        },
+        "step3p": {
+            "br": "R$0,35",
+            "en": "0,063 $"
+        },
+        "step4p": {
+            "br": "R$0,67",
+            "en": "0,12 $"
+        },
+        "step5p": {
+            "br": "R$0,99",
+            "en": "0,18 $"
+        },
+        "aproveite": {
+            "br": "Aproveite a 5ª Etapa para comprar RITs por apenas",
+            "en": "Enjoy the advantage of Step 5 to buy RITs for just"
+        },
+        "aproveite2": {
+            "br": "R$0,99",
+            "en": "0,18 $"
+        },
+        "Airdrops": {
+            "br": "Airdrops/Premiações",
+            "en": "Airdrops/Awards"
+        },
+        "Mineração": {
+            "br": "Mineração",
+            "en": "Mining"
+        },
+        "Desenvolvimentos": {
+            "br": "Desenvolvimentos",
+            "en": "Developments"
+        },
+        "Vendas": {
+            "br": "Vendas",
+            "en": "Sales"
+        },
+        "Desenvolvedores": {
+            "br": "Desenvolvedores",
+            "en": "Developers"
+        },
+        "Preço Agora": {
+            "br": "Preço Agora",
+            "en": "Price Now"
+        },
+        "1ritigual": {
+            "br": "1 RIT = R$0,99",
+            "en": "1 RIT = 0,18 $"
+        },
+        "premine": {
+            "br": "Pré-Mine",
+            "en": "Pre-Mine"
+        },
+        "ROADMAP": {
+            "br": "ROADMAP",
+            "en": "ROADMAP"
+        },
+        "Do início ao futuro": {
+            "br": "Do início ao futuro",
+            "en": "From beginning to future"
+        },
+        "Criação do canal no YouTube: REIDOBITCOIN": {
+            "br": "Criação do canal no YouTube: REIDOBITCOIN",
+            "en": "Creation of the YouTube channel REIDOBITCOIN"
+        },
+        "Buscar de parceria com outros canais": {
+            "br": "Buscar de parceria com outros canais",
+            "en": "Search for partnerships with other channels"
+        },
+        "Criação das redes sociais do canal": {
+            "br": "Criação das redes sociais do canal",
+            "en": "Create the channel social networks"
+        },
+        "SEO do canal no Youtube": {
+            "br": "SEO do canal no Youtube",
+            "en": "Search engine optimization in the channel"
+        },
+        "PROGRESSO": {
+            "br": "PROGRESSO",
+            "en": "PROGRESS"
+        },
+        "Publicação de vídeos no canal REIDOBITCOIN": {
+            "br": "Publicação de vídeos no canal REIDOBITCOIN",
+            "en": "Videos publications in the REIDOBITCOIN channel"
+        },
+        "Parceria com canais de criptomoedas": {
+            "br": "Parceria com canais de criptomoedas",
+            "en": "Partnerships with criptocurrency channels"
+        },
+        "Atualização das redes sociais": {
+            "br": "Atualização das redes sociais",
+            "en": "Social midia atualization"
+        },
+        "Parceria com a FanáticosCriptos": {
+            "br": "Parceria com a FanáticosCriptos",
+            "en": "Fanáticos Criptos partnership"
+        },
+        "Branding da REIBIT": {
+            "br": "Branding da REIBIT",
+            "en": "REIBIT branding"
+        },
+        "Criação de materiais de apoio para divulgação": {
+            "br": "Criação de materiais de apoio para divulgação",
+            "en": "Creation of support materials for dissemination"
+        },
+        "Desenvolvimento da REIBIT": {
+            "br": "Desenvolvimento da blockchain REIBIT",
+            "en": "Development of REIBIT blockchain"
+        },
+        "Criação do site institucional da criptomoeda REIBIT.IO v1.0": {
+            "br": "Criação do site institucional da criptomoeda REIBIT.IO v1.0",
+            "en": "Institutional web site of criptocurrency REIBIT v1.0 BR creation"
+        },
+        "Whitepaper v1.0": {
+            "br": "Whitepaper v1.0",
+            "en": "Whitepaper v1.0"
+        },
+        "Roadmap v1.0": {
+            "br": "Roadmap v1.0",
+            "en": "Roadmap v1.0"
+        },
+        "Lançamento da criptomoeda REIBIT": {
+            "br": "Lançamento da criptomoeda REIBIT",
+            "en": "Launch of REIBIT criptocurrency"
+        },
+        "Explorer v1.0": {
+            "br": "Explorer v1.0",
+            "en": "Explorer v1.0"
+        },
+        "Parceria com outros projetos": {
+            "br": "Parceria com outros projetos",
+            "en": "Partnerships with other projects"
+        },
+        "Listagem na FCBETTING": {
+            "br": "Listagem na FCBETTING",
+            "en": "Listing on FCBETTING"
+        },
+        "Listagem na SeedList": {
+            "br": "Listagem na SeedList",
+            "en": "Listing on SeedList"
+        },
+        "Aumento de membros na comunidade": {
+            "br": "Aumento de membros na comunidade",
+            "en": "Boost of marketing and propaganda"
+        },
+        "Parceria com projetos": {
+            "br": "Parceria com projetos",
+            "en": "Partnerships with projects"
+        },
+        "Atualização do site REIBIT.IO para a v2.0": {
+            "br": "Update of REIBIT website to v2.0",
+            "en": "Update of REIBIT website to v2"
+        },
+        "Masternode na wallet REIBIT": {
+            "br": "Masternode na wallet REIBIT",
+            "en": "Masternode na wallet REIBIT"
+        },
+        "Whitepaper v2.0": {
+            "br": "Whitepaper v2.0",
+            "en": "Whitepaper v2.0"
+        },
+        "Roadmap v2.0": {
+            "br": "Roadmap v2.0",
+            "en": "Roadmap v2.0"
+        },
+        "Explorer v2.0": {
+            "br": "Explorer v2.0",
+            "en": "Explorer v2.0"
+        },
+        "Webwallet REIBIT v1.0": {
+            "br": "Webwallet REIBIT v1.0",
+            "en": "Webwallet REIBIT v1.0"
+        },
+        "Criação da TOKENBIT v1.0": {
+            "br": "Criação da TOKENBIT v1.0",
+            "en": "creation of TOKENBIT v1.0"
+        },
+        "Listagem no MASTER STAKING MOBILE": {
+            "br": "Listagem no MASTER STAKING MOBILE",
+            "en": "Listing on MASTER STAKING MOBILE"
+        },
+        "Listagem no coingecko": {
+            "br": "Listagem no coingecko",
+            "en": "Listing on coingecko"
+        },
+        "Listagem no CoinMarketcap": {
+            "br": "Listagem no CoinMarketcap",
+            "en": "Listing on CoinMarketcap"
+        },
+        "Listagem em EXCHANGES": {
+            "br": "Listagem em EXCHANGES",
+            "en": "Listing on EXCHANGES"
+        },
+        "Listagem na MASTERNODE.BIZ": {
+            "br": "Listagem na MASTERNODE.BIZ",
+            "en": "Listing on MASTERNODE.BIZ"
+        },
+        "Impulso de marketing e propaganda": {
+            "br": "Impulso de marketing e propaganda",
+            "en": "Boost of marketing and propaganda"
+        },
+        "Criação do aplicativo REIBIT": {
+            "br": "Criação do aplicativo REIBIT",
+            "en": "REIBIT applicattion creation"
+        },
+        "Parceira com outros projetos": {
+            "br": "Parceira com outros projetos",
+            "en": "Partnerships with other channels"
+        },
+        "Atualização do canal REIDOBITCOIN": {
+            "br": "Atualização do canal REIDOBITCOIN",
+            "en": "REIDOBITCOIN channel update"
+        },
+        "20.000 Inscritos no canal REIDOBITCOIN": {
+            "br": "20.000 Inscritos no canal REIDOBITCOIN",
+            "en": "20.000 subscribes on REIDOBITCOIN channel"
+        },
+        "Site de apresentação para o canal": {
+            "br": "Site de apresentação para o canal",
+            "en": "Appresentation website of the channel"
+        },
+        "Atualização da plataforma TOKENBIT": {
+            "br": "Atualização da plataforma TOKENBIT",
+            "en": "Partnerships with other projects"
+        },
+        "criptomoeda REIBIT Integrada a plataforma de jogos LUNARIUM GAMES": {
+            "br": "criptomoeda REIBIT Integrada a plataforma de jogos LUNARIUM GAMES",
+            "en": "Update of TOKENBIT Platform"
+        },
+        "integração com outras blockchains": {
+            "br": "integração com outras blockchains",
+            "en": "REIBIT criptocurrency integration in games platform"
+        },
+        "Atualização do site REIBIT.IO para a v3.0": {
+            "br": "Atualização do site REIBIT.IO para a v3.0",
+            "en": "Integration in other blockchains"
+        },
+        "Listagem em EXCHANGE(S)": {
+            "br": "Listagem em EXCHANGE(S)",
+            "en": "Listing on Exchange(s)"
+        },
+        "Aumento da comunidade RIT": {
+            "br": "Aumento da comunidade RIT",
+            "en": "Growth of RIT community"
+        },
+        "Canais parceiros do projetos": {
+            "br": "Canais parceiros do projetos",
+            "en": "Project partners channel"
+        },
+        "Atualização do APLICATIVO para a v2.0": {
+            "br": "Atualização do APLICATIVO para a v2.0",
+            "en": "Application update to v2.0"
+        },
+        "Criação da plataforma MASTERBIT": {
+            "br": "Criação da plataforma MASTERBIT",
+            "en": "Creation of MASTERBIT platform"
+        },
+        "Atualização do canal": {
+            "br": "Atualização do canal",
+            "en": "Channel update"
+        },
+        "Busca por empresas de grande porte como parceiras": {
+            "br": "Busca por empresas de grande porte como parceiras",
+            "en": "Search for large companies as partners"
+        },
+        "Atualização do site REIBIT.IO para a v4.0": {
+            "br": "Atualização do site REIBIT.IO para a v4.0",
+            "en": "Update of REIBIT website for v4.0"
+        },
+        "Atualização do roadmap para a v3.0": {
+            "br": "Atualização do roadmap para a v3.0",
+            "en": "Update of roadmap for v3.0"
+        },
+        "Criação da exchange descentralizada REIBIT": {
+            "br": "Criação da exchange descentralizada REIBIT",
+            "en": "Creation of REIBIT decentralized exchange"
+        },
+        "30.000 Inscritos no canal REIDOBITCOIN": {
+            "br": "30.000 Inscritos no canal REIDOBITCOIN",
+            "en": "30.000 subscribes In REIDOBITCOIN channel"
+        },
+        "E muito mais": {
+            "br": "E muito mais",
+            "en": "And much more"
+        },
+        "Nossa Alta Administração": {
+            "br": "Nossa Alta Administração",
+            "en": "Our Senior Management"
+        },
+        "Conheça Nossa Equipe Executiva": {
+            "br": "Conheça Nossa Equipe Executiva",
+            "en": "Meet Our Executive Team"
+        },
+        "QUEM ESTÁ CONOSCO NESSA": {
+            "br": "QUEM ESTÁ CONOSCO NESSA",
+            "en": "WHO IS WITH US IN THIS"
+        },
+        "Parceiros Que Apoiam Nosso Projeto": {
+            "br": "Parceiros Que Apoiam Nosso Projeto",
+            "en": "Partners That Support Our Project"
+        },
+        "Carteiras e outras ferramentas": {
+            "br": "Carteiras e outras ferramentas",
+            "en": "Wallets and other tools"
+        },
+        "Carteira para android, IOS, e WebWallet em breve!": {
+            "br": "Carteira para android, IOS, e WebWallet em breve!",
+            "en": "Wallet for android, IOS, and WebWallet coming soon!"
+        },
+        "Sobre a REIBIT": {
+            "br": "Sobre a REIBIT",
+            "en": "Sobre a REIBIT"
+        },
+        "Uma criptomoeda criada para funcionar como meio de troca e pagamento para todas as plataformas e serviços, trazendo uma série de vantagens para seus portadores.": {
+            "br": "Uma criptomoeda criada para funcionar como meio de troca e pagamento para todas as plataformas e serviços, trazendo uma série de vantagens para seus portadores.",
+            "en": "A cryptocurrency created to function as a means of exchange and payment for all platforms and services, bringing a series of advantages to its holders."
+        },
+        "Comprar RITs": {
+            "br": "Comprar RITs",
+            "en": "Buy RITs"
+        },
+        "Acessar Whitepaper": {
+            "br": "Acessar Whitepaper",
+            "en": "Access Whitepaper"
+        },
+        "baixar Whitepaper": {
+            "br": "Baixar Whitepaper",
+            "en": "Download Whitepaper"
+        },
+        "Ver Explorer": {
+            "br": "Ver Explorer",
+            "en": "See Explorer"
+        },
+        "Canal no YouTube": {
+            "br": "Canal no YouTube",
+            "en": "YouTube Channel"
+        },
+        "Para entrar em contato com a equipe da REIBIT utilize as redes sociais oficiais do projeto": {
+            "br": "Para entrar em contato com a equipe da REIBIT utilize as redes sociais oficiais do projeto",
+            "en": "To contact the REIBIT team, use the project's official social networks"
+        },
+        "Links Uteis": {
+            "br": "Links Uteis",
+            "en": "Useful links"
+        },
+        "Contato": {
+            "br": "Contato",
+            "en": "Contact"
+        },
+        "Criado com ❤️ por": {
+            "br": "Criado com ❤️ por",
+            "en": "Created with ❤️ by"
+        }
     }
-  }
+}

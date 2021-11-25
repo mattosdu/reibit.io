@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
     <!--====== Required meta tags ======-->
     <meta charset="utf-8">
@@ -10,16 +11,16 @@
     <meta name="msapplication-TileColor" content="#dc680b">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#dc680b">
-    <meta property="og:type" content="website"/>
+    <meta property="og:type" content="website" />
     <meta property="og:site_name" content="REIBIT">
     <meta property="og:title" data-translatekey="title" data-translateattribute="content" content="">
     <meta property="og:description" content="Uma criptomoeda criada para funcionar como meio de troca e pagamento para todas as plataformas e serviços">
     <meta property="og:image" itemprop="image" content="assets/icons/brand-icon.jpg">
     <meta property="og:url" content="http://reibit.io">
     <meta property="og:updated_time" content="2021-08-25" />
-    
+
     <!--====== Title ======-->
-    <title data-translatekey="title" ></title>
+    <title data-translatekey="title"></title>
 
     <!--====== Favicon Icon ======-->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
@@ -31,12 +32,12 @@
     <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="assets/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="assets/icons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
     <link rel="manifest" href="assets/icons/manifest.json">
-    
+
     <!--====== Stylesheets ======-->
     <link rel="stylesheet" href="assets/css/temp-style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -52,18 +53,29 @@
     <link rel="stylesheet" href="js/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="js/owl-carousel/owl.theme.css">
     <link rel="stylesheet" href="assets/css/temp-style.css">
-    <style>html {scroll-behavior: smooth; } .nav-link small {font-size: 12px;}</style>
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LNT3WBT0MN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .nav-link small {
+            font-size: 12px;
+        }
+    </style>
 
-  gtag('config', 'G-LNT3WBT0MN');
-</script>
-    </head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LNT3WBT0MN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-LNT3WBT0MN');
+    </script>
+</head>
 
 <body class="home page-template-default page page-id-22 sticky-header-disable-touch wpb-js-composer js-comp-ver-5.4.5 vc_responsive" data-spy="scroll" data-target=".navbar" data-offset="80">
 
@@ -77,13 +89,11 @@
                             <nav class="navbar navbar-expand-lg navbar-light ">
                                 <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
                                 <!-- logo -->
-                                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="toggler-icon"></span>
                                     <span class="toggler-icon"></span>
                                     <span class="toggler-icon"></span>
-                                </button> 
+                                </button>
 
                                 <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                     <ul class="navbar-nav m-auto">
@@ -109,20 +119,26 @@
                                             <a class="nav-link" href="http://explorer.reibit.io/" target="_blank">Explorer</a>
                                         </li>
 
-                                        
-                                    </ul>
-                                </div> <!-- navbar collapse -->
-                                
-                                <div class="navbar-btn navbar-nav">
-                                    
-                                    <ul>
-                                        <li class=""><a href="#" onclick="tinyi18n.setLang('br'); return false;" style="margin-right: 7px;display: inline-block;"><img title="Traduzir site para Português" data-translateattribute="src" src="assets/images/br-flag.png"></a></li>
-                                        <li class=""><a href="#"onclick="tinyi18n.setLang('en'); return false;" style="margin-right: 7px;display: inline-block;"><img  title="Translate website to english" data-translateattribute="src" src="assets/images/usa-flag.png"></a></li>
+
                                     </ul>
                                 </div>
-                                
+                                <!-- navbar collapse -->
+
+                                <div class="navbar-btn navbar-nav">
+
+                                    <ul>
+                                        <li class="">
+                                            <a href="#" onclick="tinyi18n.setLang('br'); return false;" style="margin-right: 7px;display: inline-block;"><img title="Traduzir site para Português" data-translateattribute="src" src="assets/images/br-flag.png"></a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#" onclick="tinyi18n.setLang('en'); return false;" style="margin-right: 7px;display: inline-block;"><img title="Translate website to english" data-translateattribute="src" src="assets/images/usa-flag.png"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+
                             </nav>
-                        </div> <!-- navigation -->
+                        </div>
+                        <!-- navigation -->
                     </div>
                 </div>
             </div>
@@ -134,100 +150,31 @@
     <!--====== BANNER PART START ======-->
 
     <section class="banner-area bg_cover">
-        
+
         <div class="">
-            
+
 
             <div id="rev_slider_1_1" class="rev_slider fullscreenbanner" style="display: none;" data-version="5.4.7.1">
                 <ul>
                     <!-- SLIDE  -->
-                    <li
-                        data-index="rs-1"
-                        data-transition="parallaxtoleft"
-                        data-slotamount="default"
-                        data-hideafterloop="0"
-                        data-hideslideonmobile="off"
-                        data-easein="default"
-                        data-easeout="default"
-                        data-masterspeed="default"
-                        data-rotate="0"
-                        data-saveperformance="off"
-                        
-                    >
+                    <li data-index="rs-1" data-transition="parallaxtoleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-rotate="0" data-saveperformance="off">
                         <!-- MAIN IMAGE -->
-                        <img
-                            src=""
-                            data-bgcolor="linear-gradient(90deg,rgba(208,68,4,1)0%,rgba(208,68,4,1)0%,rgba(242,175,25,1)100%,rgba(242,175,25,1)100%)"
-                            style="background: linear-gradient(90deg, rgba(208, 68, 4, 1) 0%, rgba(208, 68, 4, 1) 0%, rgba(242, 175, 25, 1) 100%, rgba(242, 175, 25, 1) 100%);"
-                            alt=""
-                            title="Creative-business-team-laughing"
-                            width="1600"
-                            height="1100"
-                            data-bgposition="center center"
-                            data-bgfit="cover"
-                            data-bgrepeat="no-repeat"
-                            data-bgparallax="8"
-                            class="rev-slidebg"
-                            data-no-retina
-                        />
+                        <img src="" data-bgcolor="linear-gradient(90deg,rgba(208,68,4,1)0%,rgba(208,68,4,1)0%,rgba(242,175,25,1)100%,rgba(242,175,25,1)100%)" style="background: linear-gradient(90deg, rgba(208, 68, 4, 1) 0%, rgba(208, 68, 4, 1) 0%, rgba(242, 175, 25, 1) 100%, rgba(242, 175, 25, 1) 100%);"
+                            alt="" title="Creative-business-team-laughing" width="1600" height="1100" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="8" class="rev-slidebg" data-no-retina />
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->
-                        <div
-                            class="tp-caption tp-resizeme rs-parallaxlevel-1"
-                            id="slide-1-layer-12"
-                            data-x="['left','left','left','left']"
-                            data-hoffset="['558','558','558','-81']"
-                            data-y="['top','top','top','top']"
-                            data-voffset="['106','106','106','410']"
-                            data-width="none"
-                            data-height="none"
-                            data-whitespace="nowrap"
-                            data-type="image"
-                            data-responsive_offset="on"
-                            data-frames='[{"delay":400,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']"
-                            data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"
-                            style="z-index: 5;"
-                        >
-                            <img
-                                src="upload/Blockcain-Seo.png"
-                                alt=""
-                                data-ww="['689px','689px','689px','689px']"
-                                data-hh="['633px','633px','633px','633px']"
-                                width="1042"
-                                height="958"
-                                data-no-retina
-                            />
+                        <div class="tp-caption tp-resizeme rs-parallaxlevel-1" id="slide-1-layer-12" data-x="['left','left','left','left']" data-hoffset="['558','558','558','-81']" data-y="['top','top','top','top']" data-voffset="['106','106','106','410']" data-width="none"
+                            data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"delay":400,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;">
+                            <img src="upload/Blockcain-Seo.png" alt="" data-ww="['689px','689px','689px','689px']" data-hh="['633px','633px','633px','633px']" width="1042" height="958" data-no-retina />
                         </div>
 
                         <!-- LAYER NR. 2 -->
-                        <h1
-                            class="tp-caption tp-resizeme"
-                            id="slide-1-layer-1"
-                            data-x="['left','left','left','center']"
-                            data-hoffset="['29','29','29','0']"
-                            data-y="['middle','middle','middle','middle']"
-                            data-voffset="['-106','-106','-106','-208']"
-                            data-fontsize="['70','70','70','45']"
-                            data-lineheight="['80','80','80','45']"
-                            data-fontweight="['400','400','400','300']"
-                            data-letterspacing="['0','0','0','']"
-                            data-width="['621','621','621','374']"
-                            data-height="['241','241','241','none']"
-                            data-whitespace="normal"
-                            data-type="text"
-                            data-responsive_offset="on"
-                            data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
-                            data-textAlign="['left','left','left','center']"
-                            data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"
-                            style="
+                        <h1 class="tp-caption tp-resizeme" id="slide-1-layer-1" data-x="['left','left','left','center']" data-hoffset="['29','29','29','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-106','-106','-106','-208']" data-fontsize="['70','70','70','45']"
+                            data-lineheight="['80','80','80','45']" data-fontweight="['400','400','400','300']" data-letterspacing="['0','0','0','']" data-width="['621','621','621','374']" data-height="['241','241','241','none']" data-whitespace="normal"
+                            data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+                            data-textAlign="['left','left','left','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="
                                 z-index: 6;
                                 min-width: 621px;
                                 max-width: 621px;
@@ -240,35 +187,15 @@
                                 color: rgba(255, 255, 255, 1);
                                 letter-spacing: 0px;
                                 font-family: Nunito;
-                            "
-                        >
+                            ">
                             <i class="mudafont">REIBIT</i> <span style="display: inline;" data-translatekey="eofuturo"></span>
                         </h1>
 
                         <!-- LAYER NR. 3 -->
-                        <div
-                            class="tp-caption tp-resizeme"
-                            id="slide-1-layer-3"
-                            data-x="['left','left','left','center']"
-                            data-hoffset="['36','36','36','0']"
-                            data-y="['middle','middle','middle','middle']"
-                            data-voffset="['81','81','81','-18']"
-                            data-fontsize="['24','24','24','26']"
-                            data-fontweight="['200','200','200','300']"
-                            data-color="['rgb(216,216,216)','rgb(216,216,216)','rgb(216,216,216)','rgba(216,216,216,1)']"
-                            data-letterspacing="['0','0','0','-']"
-                            data-width="['463','463','463','363']"
-                            data-height="['61','61','61','none']"
-                            data-whitespace="normal"
-                            data-type="text"
-                            data-responsive_offset="on"
-                            data-frames='[{"delay":260,"speed":1750,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
-                            data-textAlign="['left','left','left','center']"
-                            data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"
-                            style="
+                        <div class="tp-caption tp-resizeme" id="slide-1-layer-3" data-x="['left','left','left','center']" data-hoffset="['36','36','36','0']" data-y="['middle','middle','middle','middle']" data-voffset="['81','81','81','-18']" data-fontsize="['24','24','24','26']"
+                            data-fontweight="['200','200','200','300']" data-color="['rgb(216,216,216)','rgb(216,216,216)','rgb(216,216,216)','rgba(216,216,216,1)']" data-letterspacing="['0','0','0','-']" data-width="['463','463','463','363']" data-height="['61','61','61','none']"
+                            data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames='[{"delay":260,"speed":1750,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+                            data-textAlign="['left','left','left','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="
                                 z-index: 7;
                                 min-width: 463px;
                                 max-width: 463px;
@@ -281,36 +208,17 @@
                                 color:#d8d8d8;
                                 letter-spacing: 0px;
                                 font-family: Muli;
-                            "
-                        >
-                        <span data-translatekey="textobanner"></span>
+                            ">
+                            <span data-translatekey="textobanner"></span>
                         </div>
 
                         <!-- LAYER NR. 4 -->
-                        <div
-                            class="tp-caption transitionsim main-btn main-btn-2"
-                            id="slide-1-layer-6"
-                            data-x="['center','center','center','center']"
-                            data-hoffset="['-500','-479','-479','0']"
-                            data-y="['middle','middle','middle','middle']"
-                            data-voffset="['255','255','255','116']"
-                            data-letterspacing="['0','0','0','']"
-                            data-width="none"
-                            data-height="none"
-                            data-whitespace="nowrap"
-                            data-type="button"
-                            data-actions=""
-                            data-responsive_offset="on"
-                            data-frames='[
+                        <div class="tp-caption transitionsim main-btn main-btn-2" id="slide-1-layer-6" data-x="['center','center','center','center']" data-hoffset="['-500','-479','-479','0']" data-y="['middle','middle','middle','middle']" data-voffset="['255','255','255','116']"
+                            data-letterspacing="['0','0','0','']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions="" data-responsive_offset="on" data-frames='[
                             {"delay":500,"speed":1510,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
                             {"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"},
-                            {"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']"
-                            data-paddingtop="[18,18,18,15]"
-                            data-paddingright="[40,40,40,50]"
-                            data-paddingbottom="[18,18,18,15]"
-                            data-paddingleft="[40,40,40,50]"
-                            style="
+                            {"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[18,18,18,15]" data-paddingright="[40,40,40,50]"
+                            data-paddingbottom="[18,18,18,15]" data-paddingleft="[40,40,40,50]" style="
                                 z-index: 8;
                                 white-space: nowrap;
                                 font-size: 18px;
@@ -326,37 +234,18 @@
                                 -moz-box-sizing: border-box;
                                 -webkit-box-sizing: border-box;
                                 cursor: pointer;
-                            "
-                        >
-                        Whitepaper
+                            ">
+                            Whitepaper
                         </div>
-                        <div
-                            class="tp-caption transitionsim main-btn"
-                            id="slide-1-layer-7"
-                            data-x="['center','center','center','center']"
-                            data-hoffset="['-289','-269','0','0']"
-                            data-y="['middle','middle','middle','middle']"
-                            data-voffset="['255','255','255','196']"
-                            data-letterspacing="['0','0','0','']"
-                            data-width="none"
-                            data-height="none"
-                            data-whitespace="nowrap"
-                            data-type="button"
-                            data-actions='[{"event": "click",
+                        <div class="tp-caption transitionsim main-btn" id="slide-1-layer-7" data-x="['center','center','center','center']" data-hoffset="['-289','-269','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['255','255','255','196']" data-letterspacing="['0','0','0','']"
+                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions='[{"event": "click",
                             "action": "simplelink",
                             "target": "_blank",
-                            "url": "https://t.me/canalreidobitcoin"}]'
-                            data-responsive_offset="on"
-                            data-frames='[
+                            "url": "https://t.me/canalreidobitcoin"}]' data-responsive_offset="on" data-frames='[
                             {"delay":500,"speed":1510,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
                             {"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"},
-                            {"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']"
-                            data-paddingtop="[18,18,18,15]"
-                            data-paddingright="[40,40,40,50]"
-                            data-paddingbottom="[18,18,18,15]"
-                            data-paddingleft="[40,40,40,50]"
-                            style="
+                            {"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[18,18,18,15]" data-paddingright="[40,40,40,50]"
+                            data-paddingbottom="[18,18,18,15]" data-paddingleft="[40,40,40,50]" style="
                                 z-index: 8;
                                 white-space: nowrap;
                                 font-size: 18px;
@@ -372,9 +261,8 @@
                                 -moz-box-sizing: border-box;
                                 -webkit-box-sizing: border-box;
                                 cursor: pointer;
-                            "
-                        >
-                        <span data-translatekey="ComprarRIT"></span>
+                            ">
+                            <span data-translatekey="ComprarRIT"></span>
                         </div>
                     </li>
                 </ul>
@@ -385,8 +273,8 @@
 
 
 
-        
-        <div class="social"  style="z-index: 96; margin-left: 6px;">
+
+        <div class="social" style="z-index: 96; margin-left: 6px;">
             <ul>
                 <li><a title="Facebook" href="https://www.facebook.com/reibit.io" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
                 <li><a title="Instagram" href="https://www.instagram.com/reibit.io/" target="_blank"><i class="fab fa-instagram"></i></a></li>
@@ -402,7 +290,7 @@
 
     <!--====== CRYPTEN TRADE PART START ======-->
 
-    <section class="crypten-trade-area pt-100 mb-100" id="sobre" >
+    <section class="crypten-trade-area pt-100 mb-100" id="sobre">
         <div class="item-1">
             <div class="container">
                 <div class="row align-items-center">
@@ -428,7 +316,7 @@
                             </div>
                             <div class="trade-item mt-30">
                                 <img src="assets/images/icon/trade-icon-3.png" alt="">
-                                <h5 class="title" data-translatekey="futuro" ></h5>
+                                <h5 class="title" data-translatekey="futuro"></h5>
                                 <p data-translatekey="futuro2"></p>
                             </div>
                         </div>
@@ -451,7 +339,7 @@
                 <div class="col-lg-4">
                     <div class="crypten-features-item text-center mt-30">
                         <img src="assets/images/icon/features-icon-1.png" alt="icon">
-                        <h3 class="title" data-translatekey="tistantaneas" ></h3>
+                        <h3 class="title" data-translatekey="tistantaneas"></h3>
                         <p data-translatekey="tistantaneas2"></p>
                     </div>
                 </div>
@@ -545,7 +433,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="section-title text-center">
-                        <span data-translatekey="vendasrit" ></span>
+                        <span data-translatekey="vendasrit"></span>
                         <h3 class="title" data-translatekey="etapasdevendas"></h3>
                     </div>
                 </div>
@@ -577,7 +465,7 @@
                         <span><span data-translatekey="step"></span> 3</span>
                         <p data-translatekey="step3p"></p>
                     </div>
-                    
+
                 </div>
                 <div class="col-lg-3">
                     <div class="token-sale-item mt-30 text-center">
@@ -595,25 +483,27 @@
                         </div>
                         <span><span data-translatekey="step"></span> 5</span>
                         <p data-translatekey="step5p"></p>
-                        </div>
                     </div>
-                    
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="token-sale-btn d-flex justify-content-center mt-50">
+                    <ul>
+                        <li>
+                            <a class="main-btn" style="font-size: 24px;width: 380px;line-height: 65px;font-weight: 500;" target="_blank" href="https://t.me/canalreidobitcoin" data-translatekey="ComprarRIT"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="section-subtitle text-center">
+                        <span class="title"><span data-translatekey="aproveite"></span> <u style="font-weight:800" data-translatekey="aproveite2"></u>!</span>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="token-sale-btn d-flex justify-content-center mt-50">
-                        <ul>
-                            <li><a class="main-btn" style="font-size: 24px;width: 380px;line-height: 65px;font-weight: 500;" target="_blank" href="https://t.me/canalreidobitcoin" data-translatekey="ComprarRIT"></a></li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <div class="section-subtitle text-center">
-                            <span class="title"><span data-translatekey="aproveite"></span> <u style="font-weight:800" data-translatekey="aproveite2"></u>!</span>
-                        </div>
-                </div>
-                </div>
-            </div>
+        </div>
         </div>
         <div class="banefits-color-2">
             <img src="assets/images/shape/color-bg-4.png" alt="">
@@ -637,27 +527,20 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="stakeholders-btn mt-30">
-                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
-                            aria-orientation="vertical">
-                            <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1"
-                                role="tab" aria-controls="v-pills-1" aria-selected="true"><span>REIBIT</span></a>
-                            <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2"
-                                role="tab" aria-controls="v-pills-2" aria-selected="false" ><span data-translatekey="Airdrops"></span> <small>31.500</small></a>
-                            <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3"
-                                role="tab" aria-controls="v-pills-3" aria-selected="false"><span data-translatekey="Mineração"></span> <small>31.500</small></a>
-                            <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4"
-                                role="tab" aria-controls="v-pills-4" aria-selected="false"><span data-translatekey="Desenvolvimentos"></span> <small>1.244.250</small></a>
-                            <a class="nav-link" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab"
-                                aria-controls="v-pills-5" aria-selected="false"><span data-translatekey="Vendas"></span> <small>1.000.000</small></a>
-                            <a class="nav-link" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-6" role="tab"
-                                aria-controls="v-pills-5" aria-selected="false"><span data-translatekey="Desenvolvedores"></span> <small>842.750</small></a>
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true"><span>REIBIT</span></a>
+                            <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false"><span data-translatekey="Airdrops"></span> <small>31.500</small></a>
+                            <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false"><span data-translatekey="Mineração"></span> <small>31.500</small></a>
+                            <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false"><span data-translatekey="Desenvolvimentos"></span> <small>1.244.250</small></a>
+                            <a class="nav-link" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false"><span data-translatekey="Vendas"></span> <small>1.000.000</small></a>
+                            <a class="nav-link" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-5" aria-selected="false"><span data-translatekey="Desenvolvedores"></span> <small>842.750</small></a>
                         </div>
                     </div>
                     <div class="stakeholders-price">
                         <ul>
                             <li>
-                                <span>Preço Agora</span>
-                                <p>1 RIT = R$0,67</p>
+                                <span data-translatekey="Preço Agora">Preço Agora</span>
+                                <p data-translatekey="1ritigual">1 RIT = R$0,67</p>
                             </li>
                             <li>
                                 <span>Total Supply</span>
@@ -668,59 +551,55 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel"
-                            aria-labelledby="v-pills-1-tab">
+                        <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
                             <div class="stakeholders-thumb mt-55">
 
 
                                 <div class="line-chart">
                                     <div class="aspect-ratio">
-                                      <canvas id="chart1"></canvas>
+                                        <canvas id="chart1"></canvas>
                                     </div>
-                                  </div>
-                                  <p class="chartdetalhes">REIBIT 100%</p>
+                                </div>
+                                <p class="chartdetalhes">REIBIT 100%</p>
 
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="v-pills-2" role="tabpanel"
-                            aria-labelledby="v-pills-2-tab">
+                        <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
                             <div class="stakeholders-thumb mt-55">
 
 
                                 <div class="line-chart">
                                     <div class="aspect-ratio">
-                                      <canvas id="chart2"></canvas>
+                                        <canvas id="chart2"></canvas>
                                     </div>
-                                  </div>
-                                  <p class="chartdetalhes"><span data-translatekey="Airdrops"></span> 0,5%</p>
+                                </div>
+                                <p class="chartdetalhes"><span data-translatekey="Airdrops"></span> 0,5%</p>
 
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="v-pills-3" role="tabpanel"
-                            aria-labelledby="v-pills-3-tab">
+                        <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
                             <div class="stakeholders-thumb mt-55">
 
 
                                 <div class="line-chart">
                                     <div class="aspect-ratio">
-                                      <canvas id="chart3"></canvas>
+                                        <canvas id="chart3"></canvas>
                                     </div>
-                                  </div>
-                                  <p class="chartdetalhes"><span data-translatekey="premine" ></span> 1%</p>
+                                </div>
+                                <p class="chartdetalhes"><span data-translatekey="premine"></span> 1%</p>
 
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="v-pills-4" role="tabpanel"
-                            aria-labelledby="v-pills-4-tab">
+                        <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
                             <div class="stakeholders-thumb mt-55">
 
 
                                 <div class="line-chart">
                                     <div class="aspect-ratio">
-                                      <canvas id="chart4"></canvas>
+                                        <canvas id="chart4"></canvas>
                                     </div>
-                                  </div>
-                                  <p class="chartdetalhes"><span data-translatekey="Desenvolvimentos"></span> 40%</p>
+                                </div>
+                                <p class="chartdetalhes"><span data-translatekey="Desenvolvimentos"></span> 40%</p>
 
 
                             </div>
@@ -731,10 +610,10 @@
 
                                 <div class="line-chart">
                                     <div class="aspect-ratio">
-                                      <canvas id="chart5"></canvas>
+                                        <canvas id="chart5"></canvas>
                                     </div>
-                                  </div>
-                                  <p class="chartdetalhes"><span data-translatekey="Vendas"></span> 31,7%</p>
+                                </div>
+                                <p class="chartdetalhes"><span data-translatekey="Vendas"></span> 31,7%</p>
 
                             </div>
                         </div>
@@ -744,10 +623,10 @@
 
                                 <div class="line-chart">
                                     <div class="aspect-ratio">
-                                      <canvas id="chart6"></canvas>
+                                        <canvas id="chart6"></canvas>
                                     </div>
-                                  </div>
-                                  <p class="chartdetalhes"><span data-translatekey="Desenvolvedores"></span> 26,7%</p>
+                                </div>
+                                <p class="chartdetalhes"><span data-translatekey="Desenvolvedores"></span> 26,7%</p>
 
                             </div>
                         </div>
@@ -773,12 +652,13 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <div class="swiper-slide roadmap-main-slide"> <!-- 2018-->
+                    <div class="swiper-slide roadmap-main-slide">
+                        <!-- 2018-->
                         <div class="swiper-container roadmap-sec">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                                 <!-- Slides -->
-                                
+
                                 <div class="swiper-slide roadmap-sec-slide active">
                                     <div class="content">
                                         <div class="content-wrapper">
@@ -806,12 +686,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide roadmap-main-slide"> <!-- 2019-->
+                    <div class="swiper-slide roadmap-main-slide">
+                        <!-- 2019-->
                         <div class="swiper-container roadmap-sec">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                                 <!-- Slides -->
-                                
+
                                 <div class="swiper-slide roadmap-sec-slide active">
                                     <div class="content">
                                         <div class="content-wrapper">
@@ -838,12 +719,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide roadmap-main-slide"> <!-- 2020-->
+                    <div class="swiper-slide roadmap-main-slide">
+                        <!-- 2020-->
                         <div class="swiper-container roadmap-sec">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                                 <!-- Slides -->
-                                
+
                                 <div class="swiper-slide roadmap-sec-slide active">
                                     <div class="content">
                                         <div class="content-wrapper">
@@ -870,12 +752,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide roadmap-main-slide"> <!-- 2021-->
+                    <div class="swiper-slide roadmap-main-slide">
+                        <!-- 2021-->
                         <div class="swiper-container roadmap-sec">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                                 <!-- Slides -->
-                                
+
                                 <div class="swiper-slide roadmap-sec-slide active">
                                     <div class="content">
                                         <div class="content-wrapper">
@@ -921,9 +804,9 @@
                                                 <li data-translatekey="Roadmap v2.0"></li>
                                                 <li data-translatekey="Explorer v2.0"></li>
                                                 <li data-translatekey="Webwallet REIBIT v1.0">/li>
-                                                <li data-translatekey="Criação da TOKENBIT v1.0"></li>
-                                                <li data-translatekey="Listagem no MASTER STAKING MOBILE"></li>
-                                                <li data-translatekey="Parceria com outros projetos"></li>
+                                                    <li data-translatekey="Criação da TOKENBIT v1.0"></li>
+                                                    <li data-translatekey="Listagem no MASTER STAKING MOBILE"></li>
+                                                    <li data-translatekey="Parceria com outros projetos"></li>
                                             </ul>
                                             <div class="progress-bar-wrapper">
                                                 <div class="progress-bar-wrapper-text">
@@ -942,7 +825,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide roadmap-main-slide"> <!-- 2022-->
+                    <div class="swiper-slide roadmap-main-slide">
+                        <!-- 2022-->
                         <div class="swiper-container roadmap-sec">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
@@ -962,7 +846,7 @@
                                             </ul>
                                             <div class="progress-bar-wrapper">
                                                 <div class="progress-bar-wrapper-text">
-                                                    <span data-translatekey="PROGRESSO"></span>  
+                                                    <span data-translatekey="PROGRESSO"></span>
                                                     <span>0%</span>
                                                 </div>
                                                 <div class="progress-bar-wrapper-actual pc0"></div>
@@ -1030,7 +914,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide roadmap-main-slide"> <!-- 2023-->
+                    <div class="swiper-slide roadmap-main-slide">
+                        <!-- 2023-->
                         <div class="swiper-container roadmap-sec">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
@@ -1168,26 +1053,26 @@
                         </div>
                     </div>
                 </div>
-                
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="team-item mt-40">
-                            <div class="team-thumb">
-                                <img src="assets/images/blockchain.jpg" alt="team">
-                            </div>
-                            <div class="team-content">
-                                <ul>
-                                    <li><a target="_blank" href="https://twitter.com/fanacriptos"><i class="fab fa-twitter"></i></a></li>
-                                </ul>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="team-item mt-40">
+                        <div class="team-thumb">
+                            <img src="assets/images/blockchain.jpg" alt="team">
+                        </div>
+                        <div class="team-content">
+                            <ul>
+                                <li><a target="_blank" href="https://twitter.com/fanacriptos"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
                             <h4 class="title">FanáticosCriptos</h4>
                             <span>BLOCKCHAIN DEVELOPER</span>
                         </div>
-                        </div>
                     </div>
-                
+                </div>
+
             </div>
-            </div>
-            
-            
+        </div>
+
+
         </div>
         <div class="banefits-color-2">
             <img src="assets/images/shape/color-bg-4.png" alt="">
@@ -1211,12 +1096,12 @@
             <div class="row justify-content-center parceiros-logos">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="brand-item mt-30">
-                        <a target="_blank" href="https://etopsaber.com/"><img src="assets/images/brand.png" ></a>
+                        <a target="_blank" href="https://etopsaber.com/"><img src="assets/images/brand.png"></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="brand-item mt-30">
-                        <a target="_blank" href="https://astron.dev/"><img src="assets/images/brand2.png" ></a>
+                        <a target="_blank" href="https://astron.dev/"><img src="assets/images/brand2.png"></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
@@ -1226,32 +1111,32 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="brand-item mt-30">
-                        <a target="_blank" href="https://ggcash.online/"><img src="assets/images/brand4.png" ></a>
+                        <a target="_blank" href="https://ggcash.online/"><img src="assets/images/brand4.png"></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="brand-item mt-30">
-                        <a target="_blank" href="https://runebase.io/"><img src="assets/images/brand5.png" ></a>
+                        <a target="_blank" href="https://runebase.io/"><img src="assets/images/brand5.png"></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="brand-item mt-30">
-                        <a target="_blank" href="https://seedlisting.com/"><img src="assets/images/brand7.png" ></a>
+                        <a target="_blank" href="https://seedlisting.com/"><img src="assets/images/brand7.png"></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="brand-item mt-30">
-                        <a target="_blank" href="https://seedlisting.com/"><img src="assets/images/brand8.png" ></a>
+                        <a target="_blank" href="https://seedlisting.com/"><img src="assets/images/brand8.png"></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="brand-item mt-30">
-                        <a target="_blank" href="https://lunariumcoin.com/"><img src="assets/images/brand9.png" ></a>
+                        <a target="_blank" href="https://lunariumcoin.com/"><img src="assets/images/brand9.png"></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="brand-item mt-30">
-                        <a target="_blank" href="https://sperocoin.org/"><img src="assets/images/brand6.png" ></a>
+                        <a target="_blank" href="https://sperocoin.org/"><img src="assets/images/brand6.png"></a>
                     </div>
                 </div>
             </div>
@@ -1263,9 +1148,9 @@
 
     <!--====== BRAND PART ENDS ======-->
 
-     <!--====== DOWNLOADS PART START ======-->
+    <!--====== DOWNLOADS PART START ======-->
 
-     <section class="download-area" id="downloads">
+    <section class="download-area" id="downloads">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -1288,7 +1173,7 @@
                                     <span>64bits</span>
                                 </div>
                             </div>
-                        </a>    
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-3 ">
                         <a href="https://github.com/REIBIT/REIBIT/releases/download/v1.0.0.0/DaemonWindows64bits.zip" title="Download Reibit Daemon Windows 64bits">
@@ -1304,7 +1189,7 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 ">
-                        <a href="https://github.com/REIBIT/REIBIT/releases/download/v1.0.0.0/QTWindows32bits.zip"title="Download Reibit QT Windows 32bits">
+                        <a href="https://github.com/REIBIT/REIBIT/releases/download/v1.0.0.0/QTWindows32bits.zip" title="Download Reibit QT Windows 32bits">
                             <div class="download-item mt-40">
                                 <div class="download-thumb">
                                     <img src="assets/images/windows-download.jpg" title="Download Reibit QT Windows 32bits">
@@ -1317,7 +1202,7 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 ">
-                        <a href="https://github.com/REIBIT/REIBIT/releases/download/v1.0.0.0/DaemonWindows32bits.zip"  title="Download Reibit Daemon Windows 32bits">
+                        <a href="https://github.com/REIBIT/REIBIT/releases/download/v1.0.0.0/DaemonWindows32bits.zip" title="Download Reibit Daemon Windows 32bits">
                             <div class="download-item mt-40">
                                 <div class="download-thumb">
                                     <img src="assets/images/windows-download.jpg" title="Download Reibit Daemon Windows 32bits">
@@ -1333,20 +1218,20 @@
                         <a href="https://github.com/REIBIT/REIBIT/releases/download/v1.0.0.0/QTUbuntu1804.zip" title="Download Reibit QT Ubuntu versão 18.04">
                             <div class="download-item mt-40">
                                 <div class="download-thumb">
-                                    <img src="assets/images/ubuntu-download.jpg"  title="Download Reibit QT Ubuntu versão 18.04">
+                                    <img src="assets/images/ubuntu-download.jpg" title="Download Reibit QT Ubuntu versão 18.04">
                                 </div>
                                 <div class="download-content">
                                     <h4 class="title">QT Ubuntu</h4>
                                     <span>Versão 18.04</span>
                                 </div>
                             </div>
-                        </a>    
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 ">
-                        <a href="https://github.com/REIBIT/REIBIT/releases/download/v1.0.0.0/DaemonUbuntu1804.zip"  title="Download Reibit Daemon Ubuntu versão 18.04">
+                        <a href="https://github.com/REIBIT/REIBIT/releases/download/v1.0.0.0/DaemonUbuntu1804.zip" title="Download Reibit Daemon Ubuntu versão 18.04">
                             <div class="download-item mt-40">
                                 <div class="download-thumb">
-                                    <img src="assets/images/ubuntu-download.jpg"  title="Download Reibit Daemon Ubuntu versão 18.04">
+                                    <img src="assets/images/ubuntu-download.jpg" title="Download Reibit Daemon Ubuntu versão 18.04">
                                 </div>
                                 <div class="download-content">
                                     <h4 class="title">D Ubuntu</h4>
@@ -1356,7 +1241,7 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 ">
-                        <a href="https://github.com/REIBIT/REIBIT/releases/"  title="Reibit Core" target="_blank">
+                        <a href="https://github.com/REIBIT/REIBIT/releases/" title="Reibit Core" target="_blank">
                             <div class="download-item mt-40">
                                 <div class="download-thumb">
                                     <img src="assets/images/source-download.jpg" title="Reibit Core">
@@ -1380,41 +1265,41 @@
                                 </div>
                             </div>
                         </a>
-                    
-                    
-                  
-                </div>
-                <div class="col">
-                    <div class="section-subtitle text-center">
-                        <span class="title" data-translatekey="Carteira para android, IOS, e WebWallet em breve!"></span>
+
+
+
                     </div>
+                    <div class="col">
+                        <div class="section-subtitle text-center">
+                            <span class="title" data-translatekey="Carteira para android, IOS, e WebWallet em breve!"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
-              </div>
-            
-            
-            
-        </div>
-        <div class="banefits-color-2">
-            <img src="assets/images/shape/color-bg-4.png" alt="">
-        </div>
+            <div class="banefits-color-2">
+                <img src="assets/images/shape/color-bg-4.png" alt="">
+            </div>
     </section>
     <!--====== DOWNLOADS PART END ======-->
 
     <!--====== FOOTER PART START ======-->
     <div class="container-fluid footer-wrapper">
-        
-            <div class="footer-sidebar-wrapper footer-sidebar-style-dark col-12" data-style="">
-                <div class="footer-sidebar sidebar container footer-sidebar-col-4">
-                    <ul id="footer-sidebar" class="clearfix">
-                        <div class="row">
+
+        <div class="footer-sidebar-wrapper footer-sidebar-style-dark col-12" data-style="">
+            <div class="footer-sidebar sidebar container footer-sidebar-col-4">
+                <ul id="footer-sidebar" class="clearfix">
+                    <div class="row">
                         <li id="custom_html-2" class="widget_text widget widget_custom_html col-md-3">
-                             <h2 class="widgettitle" data-translatekey="Sobre a REIBIT"></h2>
+                            <h2 class="widgettitle" data-translatekey="Sobre a REIBIT"></h2>
                             <div class="textwidget custom-html-widget">
                                 <p data-translatekey="Uma criptomoeda criada para funcionar como meio de troca e pagamento para todas as plataformas e serviços, trazendo uma série de vantagens para seus portadores."></p>
                             </div>
                         </li>
                         <li id="enside-recent-posts-2" class="widget widget_enside_recent_entries col-md-3">
-                             <h2 class="widgettitle" data-translatekey="Parceiros"></h2>
+                            <h2 class="widgettitle" data-translatekey="Parceiros"></h2>
                             <ul>
                                 <li class="clearfix">
                                     <div class="widget-post-details-wrapper">
@@ -1455,19 +1340,20 @@
                                     <div class="widget-post-details-wrapper">
                                         <div class="post-title"><a target="_blank" href="https://lunariumcoin.com/"><b>Lunarium</b></a></div>
                                     </div>
-                                </li>  
+                                </li>
                                 <li class="clearfix">
                                     <div class="widget-post-details-wrapper">
                                         <div class="post-title"><a target="_blank" href="https://sperocoin.org/"><b>SperoCoin</b></a></div>
                                     </div>
-                                </li>    
+                                </li>
                             </ul>
                         </li>
                         <li id="nav_menu-4" class="widget widget_nav_menu col-md-3">
-                             <h2 class="widgettitle" data-translatekey="Links Uteis"></h2>
+                            <h2 class="widgettitle" data-translatekey="Links Uteis"></h2>
                             <div class="menu-footer-sidebar-menu-container">
                                 <ul id="menu-footer-sidebar-menu" class="menu">
-                                    <li id="menu-item-325" class="menu-item menu-item-325"><a href="https://t.me/canalreidobitcoin" target="_blank" data-translatekey="Comprar RITs"></a>
+                                    <li id="menu-item-325" class="menu-item menu-item-325">
+                                        <a href="https://t.me/canalreidobitcoin" target="_blank" data-translatekey="Comprar RITs"></a>
                                     </li>
                                 </ul>
                                 <ul id="menu-footer-sidebar-menu" class="menu">
@@ -1479,17 +1365,19 @@
                                     </li>
                                 </ul>
                                 <ul id="menu-footer-sidebar-menu" class="menu">
-                                    <li id="menu-item-325" class="menu-item menu-item-325"><a href="//explorer.reibit.io/" target="_blank" data-translatekey="Ver Explorer"></a>
+                                    <li id="menu-item-325" class="menu-item menu-item-325">
+                                        <a href="//explorer.reibit.io/" target="_blank" data-translatekey="Ver Explorer"></a>
                                     </li>
                                 </ul>
                                 <ul id="menu-footer-sidebar-menu" class="menu">
-                                    <li id="menu-item-325" class="menu-item menu-item-325"><a href="https://www.youtube.com/reidobitcoinoficial" target="_blank" data-translatekey="Canal no YouTube"></a>
+                                    <li id="menu-item-325" class="menu-item menu-item-325">
+                                        <a href="https://www.youtube.com/reidobitcoinoficial" target="_blank" data-translatekey="Canal no YouTube"></a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
                         <li id="custom_html-3" class="widget_text widget widget_custom_html col-md-3">
-                             <h2 class="widgettitle" data-translatekey="Contato"></h2>
+                            <h2 class="widgettitle" data-translatekey="Contato"></h2>
                             <div class="textwidget custom-html-widget">
                                 <p data-translatekey="Para entrar em contato com a equipe da REIBIT utilize as redes sociais oficiais do projeto"></p>
                                 <div class="widget_enside_social_icons shortcode_enside_social_icons">
@@ -1513,20 +1401,20 @@
                             </div>
                         </li>
                     </div>
-                    </ul>
+                </ul>
+            </div>
+        </div>
+        <footer class="footer-style-dark footer-col-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 footer-menu"></div>
+                    <div class="col-md-12 footer-copyright"><span data-translatekey="Criado com ❤️ por"></span> <a href="https://bio.link/eduardomattos" target="_blank" rel="noopener">Eduardo Mattos</a>
+                    </div>
                 </div>
             </div>
-            <footer class="footer-style-dark footer-col-1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 footer-menu"></div>
-                        <div class="col-md-12 footer-copyright"><span data-translatekey="Criado com ❤️ por"></span> <a href="https://bio.link/eduardomattos" target="_blank"
-                            rel="noopener">Eduardo Mattos</a>
-                        </div>
-                    </div>
-                </div> <a class="scroll-to-top scroll-to-top-circle scroll-to-top-shadow" href="#"></a>
-            </footer>
-        
+            <a class="scroll-to-top scroll-to-top-circle scroll-to-top-shadow" href="#"></a>
+        </footer>
+
     </div>
     <!--====== FOOTER PART ENDS ======-->
 
@@ -1549,8 +1437,8 @@
     <script src="js/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
     <script src="js/plugins/revslider/public/assets/js/extensions/revolution.extension.kenburn.min.js"></script>
     <script src="js/plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="js/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js"></script>  
-    <script src="js/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js"></script> 
+    <script src="js/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="js/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js"></script>
     <script src="js/owl-carousel/owl.carousel.min.js"></script>
 
 
@@ -1608,7 +1496,7 @@
                 console.log("Failure at Presize of Slider:" + d)
             }
         };
-    
+
         if (setREVStartSize !== undefined)
             setREVStartSize({
                 c: "#rev_slider_1_1",
@@ -1623,7 +1511,7 @@
             });
 
         var revapi1, tpj;
-        (function () {
+        (function() {
             if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded", onLoad);
             else onLoad();
 
@@ -1699,7 +1587,7 @@
                 } /* END OF revapi call */
             } /* END OF ON LOAD FUNCTION */
         })(); /* END OF WRAPPING FUNCTION */
-    
+
         function revslider_showDoubleJqueryError(sliderID) {
             var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
             errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";

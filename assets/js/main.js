@@ -1,21 +1,21 @@
-$(function () {
+$(function() {
 
-    window.addEventListener('contextmenu', function (e) {
+    window.addEventListener('contextmenu', function(e) {
         e.preventDefault();
-      }, false);
-      
+    }, false);
+
     "use strict";
 
     //===== Prealoder
 
-    $(window).on('load', function (event) {
+    $(window).on('load', function(event) {
         $('#preloader').delay(500).fadeOut(500);
     });
 
 
     //===== Sticky
 
-    $(window).on('scroll', function (event) {
+    $(window).on('scroll', function(event) {
         var scroll = $(window).scrollTop();
         if (scroll < 110) {
             $(".header-nav").removeClass("sticky");
@@ -25,7 +25,7 @@ $(function () {
     });
 
     //===== Swiper
-    var menu = ['2018', '2019', '2020', '2021','2022','2023'];
+    var menu = ['2018', '2019', '2020', '2021', '2022', '2023'];
     var mySwiper = new Swiper('.roadmap-main', {
         // Optional parameters
         loop: true,
@@ -33,7 +33,7 @@ $(function () {
         pagination: {
             el: '.swiper-custom-pagination',
             clickable: true,
-            renderBullet: function (index, className) {
+            renderBullet: function(index, className) {
                 return '<span class="' + className + '">' + (menu[index]) + '</span>';
             },
         },
@@ -55,28 +55,28 @@ $(function () {
             }
         }
     });
-        // Single Features Active
-        
+    // Single Features Active
+
 
     //===== Mobile Menu 
 
-    $(".navbar-toggler").on('click', function () {
+    $(".navbar-toggler").on('click', function() {
         $(this).toggleClass('active');
     });
 
-    $(".navbar-nav a").on('click', function () {
+    $(".navbar-nav a").on('click', function() {
         $(".navbar-toggler").removeClass('active');
     });
     var subMenu = $(".sub-menu-bar .navbar-nav .sub-menu");
 
     if (subMenu.length) {
-        subMenu.parent('li').children('a').append(function () {
+        subMenu.parent('li').children('a').append(function() {
             return '<button class="sub-nav-toggler"> <i class="fa fa-angle-down"></i> </button>';
         });
 
         var subMenuToggler = $(".sub-menu-bar .navbar-nav .sub-nav-toggler");
 
-        subMenuToggler.on('click', function () {
+        subMenuToggler.on('click', function() {
             $(this).parent().parent().children(".sub-menu").slideToggle();
             return false
         });
@@ -89,15 +89,15 @@ $(function () {
 
     if ($('.accrodion-grp').length) {
         var accrodionGrp = $('.accrodion-grp');
-        accrodionGrp.each(function () {
+        accrodionGrp.each(function() {
             var accrodionName = $(this).data('grp-name');
             var Self = $(this);
             var accordion = Self.find('.accrodion');
             Self.addClass(accrodionName);
             Self.find('.accrodion .accrodion-content').hide();
             Self.find('.accrodion.active').find('.accrodion-content').show();
-            accordion.each(function () {
-                $(this).find('.accrodion-title').on('click', function () {
+            accordion.each(function() {
+                $(this).find('.accrodion-title').on('click', function() {
                     if ($(this).parent().parent().hasClass('active') === false) {
                         $('.accrodion-grp.' + accrodionName).find('.accrodion').removeClass('active');
                         $('.accrodion-grp.' + accrodionName).find('.accrodion').find('.accrodion-content').slideUp();
@@ -113,10 +113,6 @@ $(function () {
     };
 
 
-
-
-
-
     $('.circle-1').circleProgress({
         value: 1,
         size: 145,
@@ -125,33 +121,33 @@ $(function () {
         fill: {
             gradient: ["#ffc50c", "#ffc50c"]
         }
-    }).on('circle-animation-progress', function (event, progress) {
+    }).on('circle-animation-progress', function(event, progress) {
         $(this).find('strong').html(Math.round(100 * progress) + '<i>%</i>');
     });
 
-  $('.circle-2').circleProgress({
-    value: 1,
-    size: 145,
-    thickness: 6,
-    lineCap: "round",
-    fill: {
-        gradient: ["#ffc50c", "#ffc50c"]
-    }
-    
-}).on('circle-animation-progress', function (event, progress) {
-    $(this).find('strong').html(Math.round(100 * progress) + '<i>%</i>');
-});
+    $('.circle-2').circleProgress({
+        value: 1,
+        size: 145,
+        thickness: 6,
+        lineCap: "round",
+        fill: {
+            gradient: ["#ffc50c", "#ffc50c"]
+        }
+
+    }).on('circle-animation-progress', function(event, progress) {
+        $(this).find('strong').html(Math.round(100 * progress) + '<i>%</i>');
+    });
 
 
 
-/* setInterval(()=>{
-    
-    $('.circle-2').circleProgress({ value: .99, animationStartValue: .98,});
-  }, 850); */
+    /* setInterval(()=>{
+        
+        $('.circle-2').circleProgress({ value: .99, animationStartValue: .98,});
+      }, 850); */
 
 
-    
- 
+
+
     $('.circle-3').circleProgress({
         value: 1,
         size: 145,
@@ -160,12 +156,12 @@ $(function () {
         fill: {
             gradient: ["#ffc50c", "#ffc50c"]
         }
-    }).on('circle-animation-progress', function (event, progress) {
+    }).on('circle-animation-progress', function(event, progress) {
         $(this).find('strong').html(100 + '<i>%</i>');
     });
 
-     
-    
+
+
     $('.circle-4').circleProgress({
         value: 1,
         size: 145,
@@ -174,7 +170,7 @@ $(function () {
         fill: {
             gradient: ["#ffc50c", "#ffc50c"]
         }
-    }).on('circle-animation-progress', function (event, progress) {
+    }).on('circle-animation-progress', function(event, progress) {
         $(this).find('strong').html(100 + '<i>%</i>');
     });
 
@@ -182,16 +178,21 @@ $(function () {
 
 
     $('.circle-5').circleProgress({
-        value: 0.01,
+        value: 0.11,
         size: 145,
         thickness: 6,
         lineCap: "round",
         fill: {
             gradient: ["#ffc50c", "#ffc50c"]
         }
-    }).on('circle-animation-progress', function (event, progress) {
-        $(this).find('strong').html(Math.round(1 * progress) + '<i>%</i>');
+    }).on('circle-animation-progress', function(event, progress) {
+        $(this).find('strong').html(13 + '<i>%</i>');
     });
+
+    setInterval(() => {
+
+        $('.circle-5').circleProgress({ value: 0.13, animationStartValue: .11, });
+    }, 850);
 
 
 
@@ -208,8 +209,7 @@ $(function () {
         speed: 1500,
         slidesToShow: 5,
         slidesToScroll: 2,
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 1201,
                 settings: {
                     slidesToShow: 4,
@@ -250,9 +250,8 @@ $(function () {
         speed: 1500,
         slidesToShow: 4,
         slidesToScroll: 1,
-        swipeToSlide:true,
-        responsive: [
-            {
+        swipeToSlide: true,
+        responsive: [{
                 breakpoint: 1201,
                 settings: {
                     slidesToShow: 4,
@@ -306,14 +305,14 @@ $(function () {
 
     //===== Back to top
 
-    $(window).on('scroll', function () {
+    $(window).on('scroll', function() {
         if ($(this).scrollTop() > 100) {
             $('#scroll_up').fadeIn();
         } else {
             $('#scroll_up').fadeOut();
         }
     });
-    $('#scroll_up').on('click', function () {
+    $('#scroll_up').on('click', function() {
         $("html, body").animate({
             scrollTop: 0
         }, 600);
