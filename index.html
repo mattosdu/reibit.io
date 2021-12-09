@@ -39,20 +39,37 @@
     <link rel="manifest" href="assets/icons/manifest.json">
 
     <!--====== Stylesheets ======-->
-    <link rel="stylesheet" href="assets/css/temp-style.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/all.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" async href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" async href="assets/css/all.css">
+    <link rel="stylesheet" async href="assets/css/nice-select.css">
+    <link rel="stylesheet" async href="assets/css/slick.css">
+    <link rel="stylesheet" async href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" async href="css/animations.css">
     <link rel="stylesheet" href="js/plugins/revslider/public/assets/css/settings.css">
-    <link rel="stylesheet" href="js/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="js/owl-carousel/owl.theme.css">
-    <link rel="stylesheet" href="assets/css/temp-style.css">
+    <link rel="stylesheet" async href="js/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" async href="js/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" async href="assets/css/temp-style.css">
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KFR2SSG');
+    </script>
+    <!-- End Google Tag Manager -->
     <style>
         html {
             scroll-behavior: smooth;
@@ -62,38 +79,14 @@
             font-size: 12px;
         }
     </style>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LNT3WBT0MN"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-LNT3WBT0MN');
-        gtag('config', 'AW-10822525827');
-    </script>
-    <!-- Event snippet for BOTÃO BUY RIT - TELEGRAM conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-    <script>
-        function gtag_report_conversion(url) {
-            var callback = function() {
-                if (typeof(url) != 'undefined') {
-                    window.location = url;
-                }
-            };
-            gtag('event', 'conversion', {
-                'send_to': 'AW-10822525827/orDQCK2XjokDEIPHyqgo',
-                'event_callback': callback
-            });
-            return false;
-        }
-    </script>
 </head>
 
 <body class="home page-template-default page page-id-22 sticky-header-disable-touch wpb-js-composer js-comp-ver-5.4.5 vc_responsive" data-spy="scroll" data-target=".navbar" data-offset="80">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFR2SSG"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <!--====== HEADER PART START ======-->
     <header class="header-area">
