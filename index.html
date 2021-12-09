@@ -74,6 +74,22 @@
         gtag('js', new Date());
 
         gtag('config', 'G-LNT3WBT0MN');
+        gtag('config', 'AW-10822525827');
+    </script>
+    <!-- Event snippet for BOTÃO BUY RIT - TELEGRAM conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function() {
+                if (typeof(url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-10822525827/orDQCK2XjokDEIPHyqgo',
+                'event_callback': callback
+            });
+            return false;
+        }
     </script>
 </head>
 
@@ -493,7 +509,7 @@
                 <div class="token-sale-btn d-flex justify-content-center mt-50">
                     <ul>
                         <li>
-                            <a class="main-btn" style="font-size: 24px;width: 380px;line-height: 65px;font-weight: 500;" target="_blank" href="https://t.me/canalreidobitcoin" data-translatekey="ComprarRIT"></a>
+                            <a class="main-btn" style="font-size: 24px;width: 380px;line-height: 65px;font-weight: 500;" target="_blank" href="https://t.me/canalreidobitcoin" onclick="return gtag_report_conversion('https://t.me/canalreidobitcoin');" data-translatekey="ComprarRIT"></a>
                         </li>
                     </ul>
                 </div>
