@@ -79,6 +79,52 @@
         .nav-link small {
             font-size: 12px;
         }
+        
+        @media (min-width: 992px) {
+            a.nav-link.especial {
+                width: 110px;
+                font-weight: 900 !important;
+                text-align: right;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                animation-name: stretch;
+                animation-duration: 0.8s;
+                animation-direction: alternate;
+                animation-iteration-count: infinite;
+                animation-play-state: running;
+            }
+            a.nav-link.especial::after {
+                content: "Novidade";
+                position: absolute;
+                font-size: 9px;
+                right: -26px;
+                text-align: right!important;
+                top: 22px;
+                background: #bd5209;
+                display: block;
+                line-height: 17px;
+                padding: 2px 7px;
+                z-index: -2;
+                border-radius: 7px;
+                transform: rotateZ( 4deg);
+            }
+        }
+        
+        @media only screen and (min-width: 992px) and (max-width: 1200px) {
+            .header-nav .navigation .navbar .navbar-btn ul li a {
+                padding: 0 10px;
+            }
+        }
+        
+        @keyframes stretch {
+            0% {
+                font-size: 15px;
+            }
+            100% {
+                font-size: 16px;
+            }
+        }
     </style>
 
 </head>
@@ -129,20 +175,24 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="http://explorer.reibit.io/" target="_blank">Explorer</a>
                                         </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link especial" href="http://wallet.reibit.io/" target="_blank">WEBWALLET</a>
+                                        </li>
+
 
 
                                     </ul>
                                 </div>
                                 <!-- navbar collapse -->
 
-                                <div class="navbar-btn navbar-nav">
+                                <div class="navbar-btn ">
 
                                     <ul>
                                         <li class="">
-                                            <a href="#" onclick="tinyi18n.setLang('br'); return false;" style="margin-right: 7px;display: inline-block;"><img title="Traduzir site para Português" data-translateattribute="src" src="assets/images/br-flag.png"></a>
+                                            <a href="#" onclick="tinyi18n.setLang('br'); return false;"><img title="Traduzir site para Português" data-translateattribute="src" src="assets/images/br-flag.png"></a>
                                         </li>
                                         <li class="">
-                                            <a href="#" onclick="tinyi18n.setLang('en'); return false;" style="margin-right: 7px;display: inline-block;"><img title="Translate website to english" data-translateattribute="src" src="assets/images/usa-flag.png"></a>
+                                            <a href="#" onclick="tinyi18n.setLang('en'); return false;"><img title="Translate website to english" data-translateattribute="src" src="assets/images/usa-flag.png"></a>
                                         </li>
                                     </ul>
                                 </div>

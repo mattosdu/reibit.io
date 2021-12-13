@@ -730,9 +730,6 @@ p {
     animation: sticky 1.2s
 }
 
-.header-nav.sticky .navbar .navbar-nav .nav-item a {
-    line-height: 80px !important
-}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-nav.sticky .navbar .navbar-nav .nav-item a {
