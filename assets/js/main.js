@@ -140,10 +140,7 @@ $(function() {
 
 
 
-    /* setInterval(()=>{
-        
-        $('.circle-2').circleProgress({ value: .99, animationStartValue: .98,});
-      }, 850); */
+
 
 
 
@@ -178,7 +175,7 @@ $(function() {
 
 
     $('.circle-5').circleProgress({
-        value: 0.97,
+        value: 1,
         size: 145,
         thickness: 6,
         lineCap: "round",
@@ -186,13 +183,10 @@ $(function() {
             gradient: ["#ffc50c", "#ffc50c"]
         }
     }).on('circle-animation-progress', function(event, progress) {
-        $(this).find('strong').html(99 + '<i>%</i>');
+        $(this).find('strong').html(100 + '<i>%</i>');
     });
 
-    setInterval(() => {
 
-        $('.circle-5').circleProgress({ value: 0.99, animationStartValue: .97, });
-    }, 850);
 
 
 
