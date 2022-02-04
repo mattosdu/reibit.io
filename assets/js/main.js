@@ -314,7 +314,7 @@ $(document).ready(function() {
         url: "https://api.bankcex.com/api/v1/ticker/24hr?symbol=RITUSDT",
         type: 'GET',
         headers: {
-            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Origin': 'htttps://reibit.io',
             'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS',
             'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token'
         }
