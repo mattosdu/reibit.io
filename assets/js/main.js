@@ -312,7 +312,7 @@ $(function() {
 $.support.cors = true;
 $(document).ready(function() {
     $.ajax({
-        url: "https://alloworigin.com/get?url=https://api.bankcex.com/api/v1/ticker/24hr?symbol=RITUSDT",
+        url: "https://api.bankcex.com/api/v1/ticker/24hr?symbol=RITUSDT",
         type: 'GET',
         crossDomain: true,
         dataType: "json",
