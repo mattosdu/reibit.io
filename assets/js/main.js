@@ -24,7 +24,7 @@ $(function() {
     var mySwiper = new Swiper('.roadmap-main', {
         // Optional parameters
         loop: true,
-        initialSlide: 3,
+        initialSlide: 4,
         pagination: {
             el: '.swiper-custom-pagination',
             clickable: true,
@@ -308,22 +308,17 @@ $(function() {
         return false;
     });
 
-
-    //===== 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+});
+$(document).ready(function() {
+    $.ajax({
+        url: "https://api.bankcex.com/api/v1/ticker/24hr?symbol=RITUSDT",
+        type: 'GET',
+        headers: {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS',
+            'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token'
+        }
+    }).then(function(data) {
+        $('.pricenow').append(data.askprice);
+    });
 });

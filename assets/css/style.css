@@ -437,7 +437,7 @@ body {
     font-weight: normal;
     font-style: normal;
     color: #d8d8d8;
-    background: #dc680b;
+    background: #161413;
     overflow-x: hidden;
 }
 
@@ -564,8 +564,8 @@ p {
     -webkit-transition: all .4s ease-out 0s;
     transition: all .4s ease-out 0s;
     border-radius: 4px;
-    background: -webkit-gradient(linear, left top, right top, from(#c90075), color-stop(50%, #de00ac), to(#c90075));
-    background: linear-gradient(to right, #c90075 0%, #de00ac 50%, #c90075 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#c95d00), color-stop(50%, #ffcd00), to(#c94100));
+    background: linear-gradient(to right, #c95d00 0%, #ffcd00 50%, #c94100 100%);
     background-size: 200% auto;
     letter-spacing: 1px;
     -webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1), inset 0px -1px 1px 0px rgba(255, 255, 255, 0.2);
@@ -577,9 +577,9 @@ p {
 }
 
 .main-btn.main-btn-2 {
-    background: -webkit-gradient(linear, left top, right top, from(#0065e8), color-stop(50%, #11a2f1), to(#0065e8));
-    background: linear-gradient(to right, #0065e8 0%, #11a2f1 50%, #0065e8 100%);
-    background-size: 200% auto
+    background: -webkit-gradient(linear, left top, right top, from(#ffbc00), color-stop(50%, #f94a00), to(#e7a91f));
+    background: linear-gradient(to right, #ffbc00 0%, #f94a00 50%, #e7a91f 100%);
+    background-size: 200% auto;
 }
 
 .main-btn.main-btn-2:hover {
@@ -722,13 +722,13 @@ p {
     top: 0;
     left: 0;
     right: 0;
-    background: #dc690bd7;
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.04);
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.04);
+    background: #000000d7;
+    -webkit-box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 4%);
+    box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 4%);
     z-index: 999;
     -webkit-animation: sticky 1.2s;
     animation: sticky 1.2s;
-    border-bottom: 1px solid rgba(255, 255, 255, 0)
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3664,7 +3664,7 @@ p {
 }
 
 .team-area .team-item .team-content {
-    background-color: #8c430e;
+    background-color: #00000073;
     padding-top: 39px;
     padding-left: 40px;
     padding-bottom: 20px;
@@ -3775,7 +3775,7 @@ p {
 }
 
 .download-area .download-item .download-content {
-    background-color: #8c430e;
+    background-color: #ffffff1a;
     text-align: center;
     padding: 20px 0px;
 }
@@ -5297,7 +5297,7 @@ p {
     transform: translateY(-50%);
     width: 1px;
     height: 285px;
-    background: #462f77
+    background: #666666;
 }
 
 .crypten-features-area .crypten-features-item .title {
@@ -5746,7 +5746,7 @@ p {
     transform: translateY(-50%);
     width: 1px;
     height: 30px;
-    background: #66448d
+    background: #fff;
 }
 
 .stakeholders-area .stakeholders-price ul li span {
@@ -5875,4 +5875,22 @@ p {
 
 .documents-area .documents-item:hover .documents-thumb .documents-hover-image {
     opacity: 0
+}
+
+.coin-both {
+    background-image: url(http://reibit.test/assets/images/shape/coin-both.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.coin-right {
+    background-image: url(http://reibit.test/assets/images/shape/coin-right.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.coin-left {
+    background-image: url(http://reibit.test/assets/images/shape/coin-left.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
