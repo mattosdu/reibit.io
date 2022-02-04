@@ -5878,19 +5878,19 @@ p {
 }
 
 .coin-both {
-    background-image: url(http://reibit.test/assets/images/shape/coin-both.png);
+    background-image: url(/assets/images/shape/coin-both.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .coin-right {
-    background-image: url(http://reibit.test/assets/images/shape/coin-right.png);
+    background-image: url(/assets/images/shape/coin-right.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .coin-left {
-    background-image: url(http://reibit.test/assets/images/shape/coin-left.png);
+    background-image: url(/assets/images/shape/coin-left.png);
     background-repeat: no-repeat;
     background-position: center;
 }
