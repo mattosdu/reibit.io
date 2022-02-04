@@ -316,10 +316,7 @@ $(document).ready(function() {
         type: 'GET',
         crossDomain: true,
         dataType: "jsonp",
-        headers: {
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'GET'
-        }
+        headers: { 'Access-Control-Allow-Origin': '*' }
     }).then(function(data) {
         $('.pricenow').append(data.askprice);
     });
