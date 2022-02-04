@@ -316,6 +316,7 @@ $(document).ready(function() {
         type: 'GET',
         crossDomain: true,
         dataType: "jsonp",
+        jsonp: false,
         headers: { 'Access-Control-Allow-Origin': '*' }
     }).then(function(data) {
         $('.pricenow').append(data.askprice);
