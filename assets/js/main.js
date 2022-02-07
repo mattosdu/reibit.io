@@ -316,11 +316,10 @@ $(document).ready(function() {
         type: 'GET',
         crossDomain: true,
         dataType: "json",
-        data: { "id": id },
         Cache: false,
         headers: { 'Access-Control-Allow-Origin': '*' }
     }).then(function(data) {
-        $('.pricenow').append(data.askprice);
+        $('.pricenow').append(data[askprice]);
     });
 
     /*$.get( "https://api.bankcex.com/api/v1/ticker/24hr?symbol=RITUSDT", function(data) {
