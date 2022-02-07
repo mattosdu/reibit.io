@@ -315,9 +315,8 @@ $(document).ready(function() {
         url: "https://api.bankcex.com/api/v1/ticker/24hr?symbol=RITUSDT",
         type: 'GET',
         crossDomain: true,
-        dataType: "jsonp",
-        jsonp: false,
-        Cache: true,
+        dataType: "json",
+        Cache: false,
         headers: { 'Access-Control-Allow-Origin': '*' }
     }).then(function(data) {
         $('.pricenow').append(data.askprice);
