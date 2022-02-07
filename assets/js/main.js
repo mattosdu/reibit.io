@@ -317,7 +317,7 @@ $(document).ready(function() {
         crossDomain: true,
         dataType: "jsonp",
         jsonp: false,
-        Cache: false,
+        Cache: true,
         headers: { 'Access-Control-Allow-Origin': '*' }
     }).then(function(data) {
         $('.pricenow').append(data.askprice);
