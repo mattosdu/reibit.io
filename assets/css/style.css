@@ -5714,12 +5714,6 @@ p {
     padding-top: 84px
 }
 
-.stakeholders-area .stakeholders-price ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-}
-
 .stakeholders-area .stakeholders-price ul li:last-child {
     margin-left: 75px;
     position: relative
@@ -5893,4 +5887,8 @@ p {
     background-image: url(/assets/images/shape/coin-left.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.pricenow {
+    display: inline-block;
 }
