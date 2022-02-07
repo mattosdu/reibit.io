@@ -316,6 +316,7 @@ $(document).ready(function() {
         type: 'GET',
         crossDomain: true,
         dataType: "json",
+        data: { "id": id },
         Cache: false,
         headers: { 'Access-Control-Allow-Origin': '*' }
     }).then(function(data) {
